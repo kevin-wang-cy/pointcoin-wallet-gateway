@@ -1,0 +1,117 @@
+spring:
+    profiles.active: development
+ 
+################################  
+# development profile section  #
+################################
+
+---
+spring:
+    profiles: development
+    
+    datasource:
+        url: jdbc:h2:~/pointcoindb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        username: sa
+        password:
+        test-while-idle: true
+        validation-query: SELECT 1
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: create-drop
+        generate-ddl: true
+
+pointcoin:
+    wallet:
+        alias: default
+        rpc-url: http://10.30.158.23:9332
+        rpc-user: admin
+        rpc-password: 123456      
+       
+    api:
+        allowip: 127.0.0.1    
+       
+endpoints:
+    health:
+        sensitive: false
+        enabled: true
+    actuator:
+        enabled: true
+        
+security:
+    user:
+        name: admin
+        password: 123456
+        role:   ADMIN
+
+ 
+###############################     
+# production profile section  #
+###############################
+
+---
+spring:
+    profiles: production
+    
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://${POINTCOIN_API_DB_HOST:127.0.0.1}:${POINTCOIN_API_DB_PORT:3306}/${POINTCOIN_API_DB_NAME:pointcoindb}?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        username: ${POINTCOIN_API_DB_USER:pointcoinapiremote}
+        password: ${POINTCOIN_API_DB_PASS:}
+        
+        #连接池的配置信息
+        initial-size: 5
+        min-idle: 5
+        max-active: 20
+        max-wait: 60000
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        validation-query: SELECT 1 FROM DUAL
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+        filters: stat,wall,log4j
+        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000        
+        
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        generate-ddl: true   
+
+###########################
+# default profile section #
+###########################
+---        
+logging:
+    config: classpath:pointcoin-logback.xml
+    level:
+        com.upbchain: DEBUG
+
+jasypt:
+    encryptor:
+        password: ${JASYPT_ENCRYPTOR_PASSWORD:}
+            
+pointcoin:
+    wallet:
+        alias: ${POINTCOIN_WALLET_RPC_ALIAS:default}  
+        rpc-url: ${POINTCOIN_WALLET_RPC_URL:http://127.0.0.1:8332}
+        rpc-user: ${POINTCOIN_WALLET_RPC_USER:}
+        rpc-password: ${POINTCOIN_WALLET_RPC_PASS:}    
+
+    api:
+        allowip: ${POINTCOIN_API_ALLOWIP:127.0.0.1}            
+
+    task:
+        deposit-record-push:
+            cron: ${POINTCOIN_TASK_PUSH_CRON:0 0/15 * 1/1 * ?}
+            url: ${POINTCOIN_TASK_PUSH_URL:http://127.0.0.1:8080/api/echo}
+            
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: update
+ 

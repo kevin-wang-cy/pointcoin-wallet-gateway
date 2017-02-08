@@ -1,0 +1,51 @@
+ext {
+    mysqlConnectorVersion = "5.1.40"
+    druidVersion = "1.0.27"
+}
+
+apply plugin: 'org.springframework.boot'
+
+springBoot {
+    excludeDevtools = true
+    
+    executable = true
+    
+    requiresUnpack = ["com.upbchain.pointcoin:api"]
+}
+
+dependencies {
+    compile(project(":api"))
+    
+    compile("mysql:mysql-connector-java:${mysqlConnectorVersion}")
+    compile("com.alibaba:druid:${druidVersion}")
+    
+    compile("com.github.ulisesbocchio:jasypt-spring-boot-starter:${jasyptBootVersion}")
+
+    compile("org.springframework.boot:spring-boot-starter-jetty")
+    
+    compile("org.springframework.boot:spring-boot-starter-security")
+    
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-hateoas")
+    
+    compile("org.springframework.boot:spring-boot-devtools")
+    
+    runtime("com.h2database:h2")    
+            
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("junit:junit")
+
+}
+
+task deployAssemble(type: Copy, dependsOn: assemble) {
+    from jar
+    from "src/main/deploy/tools"
+    from "src/main/deploy/encryptor.sh"
+    from "src/main/deploy/README"
+    from "src/main/deploy/notification.cmd"
+    from "src/main/deploy/notification.sh"
+    from "src/main/deploy/app.conf"
+    rename "${project.name}.(.*).jar", "${rootProject.name}.jar"
+    rename "app.conf", "${rootProject.name}.conf"
+    into "build/deploy/"
+}

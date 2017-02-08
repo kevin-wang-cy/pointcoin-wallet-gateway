@@ -1,0 +1,79 @@
+ {
+        "amounts": {
+            "XPP": -132.1574378
+        }, 
+        "blockhash": "3fd3c95398be0fcfe1ac1149094559752bf148f5b63b53dcdf700f8d313acc9d", 
+        "blockindex": 1, 
+        "blocktime": 1483884750, 
+        "confirmations": 1, 
+        "details": [
+            {
+                "account": "xgx.com multiaddresses account - federation", 
+                "address": "UPyPL1EJ7TZXv6GPwSFbqj4uE7MUwMjwFiQ", 
+                "amount": 0.0, 
+                "category": "immature", 
+                "currency": "XPP"
+            }
+        ], 
+        "fee": {
+            "XPP": 0.0
+        }, 
+        "generated": true, 
+        "locktime": 0, 
+        "time": 1483884750, 
+        "timereceived": 1483884750, 
+        "txid": "78d09283c7b7925e7717b4d7601090f934c987926e259239a898389b57703f3f", 
+        "version": 1, 
+        "vin": [
+            {
+                "addresses": [
+                    "UPyPL1EJ7TZXv6GPwSFbqj4uE7MUwMjwFiQ"
+                ], 
+                "scriptSig": {
+                    "asm": "3045022100c4ad0f3cddf741106e1f22d1fe72dfea5118e4e8f7fff7c769778c59465efdc002203c5b4aebbb0f89ff5ce956ff024c72c472f3a939eaf9935eba98a715a7ee83ce01", 
+                    "hex": "483045022100c4ad0f3cddf741106e1f22d1fe72dfea5118e4e8f7fff7c769778c59465efdc002203c5b4aebbb0f89ff5ce956ff024c72c472f3a939eaf9935eba98a715a7ee83ce01"
+                }, 
+                "sequence": 4294967295, 
+                "txid": "6ae69e9731ec518500c058a593aae1f449cb59e2144d0c5306f98eeb61b34353", 
+                "value": 132.1574378, 
+                "vout": 2
+            }
+        ], 
+        "vout": [
+            {
+                "currency": "XPP", 
+                "n": 0, 
+                "scriptPubKey": {
+                    "asm": "", 
+                    "type": "nonstandard"
+                }, 
+                "value": 0.0
+            }, 
+            {
+                "currency": "XPP", 
+                "n": 1, 
+                "scriptPubKey": {
+                    "addresses": [
+                        "UPyPL1EJ7TZXv6GPwSFbqj4uE7MUwMjwFiQ"
+                    ], 
+                    "asm": "032a3dad0b149ea12c38f75031819f58966bd4327ef7dad2af3af5561a0bd4ed65 OP_CHECKSIG", 
+                    "reqSigs": 1, 
+                    "type": "pubkey"
+                }, 
+                "value": 66.07
+            }, 
+            {
+                "currency": "XPP", 
+                "n": 2, 
+                "scriptPubKey": {
+                    "addresses": [
+                        "UPyPL1EJ7TZXv6GPwSFbqj4uE7MUwMjwFiQ"
+                    ], 
+                    "asm": "032a3dad0b149ea12c38f75031819f58966bd4327ef7dad2af3af5561a0bd4ed65 OP_CHECKSIG", 
+                    "reqSigs": 1, 
+                    "type": "pubkey"
+                }, 
+                "value": 66.0874378
+            }
+        ]
+    }

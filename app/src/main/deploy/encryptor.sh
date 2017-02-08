@@ -1,0 +1,1 @@
+java -cp jasypt-1.9.2.jar  org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI input="123456" password=25164dbe226e1d26c109b64c7e6d14e8 algorithm=PBEWithMD5AndDES

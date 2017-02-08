@@ -1,0 +1,65 @@
+$ cp myapp.jar /var/myapp/
+$ sudo ln -s /var/myapp/myapp.jar /etc/init.d/myapp 
+
+# then by default, /var/run/myapp/myapp.pid and /var/log/myapp.log will be the pid file and log file
+# sudo cd /etc/init.d
+# sudo chown root:root celeryd
+# sudo chmod 755 celeryd
+# sudo ln -s /usr/lib/insserv/insserv /sbin/insserv
+# sudo insserv celeryd
+
+
+
+export JASYPT_ENCRYPTOR_PASSWORD=25164dbe226e1d26c109b64c7e6d14e8
+
+export POINTCOIN_API_ALLOWIP=127.0.0.1
+export POINTCOIN_API_DB_HOST=127.0.0.1
+export POINTCOIN_API_DB_PORT=3306
+export POINTCOIN_API_DB_NAME=pointcoindb
+export POINTCOIN_API_DB_USER=pointcoinapiremote
+export POINTCOIN_API_DB_PASS=123456
+
+export POINTCOIN_WALLET_RPC_ALIAS=default
+export POINTCOIN_WALLET_RPC_URL=http://127.0.0.1:8332
+export POINTCOIN_WALLET_RPC_USER=admin
+export POINTCOIN_WALLET_RPC_PASS=http://127.0.0.1:833123456
+
+export POINTCOIN_TASK_PUSH_URL=http://127.0.0.1:8080/api/echo
+export POINTCOIN_TASK_PUSH_CRON=0 0/15 * 1/1 * ?
+
+
+
+#####
+----ARGUMENTS-------------------
+algorithm: PBEWithMD5AndDES
+input: 123456
+password: 25164dbe226e1d26c109b64c7e6d14e8
+
+----OUTPUT----------------------
+
+MXmwCObi6rstaeOVvr/uog==
+
+----ARGUMENTS-------------------
+
+algorithm: PBEWithMD5AndDES
+input: admin@123456
+password: 25164dbe226e1d26c109b64c7e6d14e8
+
+
+
+----OUTPUT----------------------
+
+qewZfM7sVgFV+Eco5OLN50cqlbT/GSdL
+
+----ARGUMENTS-------------------
+
+algorithm: PBEWithMD5AndDES
+input: kevin@123456
+password: 25164dbe226e1d26c109b64c7e6d14e8
+
+
+
+----OUTPUT----------------------
+
+bR0/bwE8ZzLHnLdDuxIHSVvnsNYhFyVu
+
