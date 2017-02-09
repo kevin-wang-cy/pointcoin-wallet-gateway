@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module relativePaths="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output/>
     <orderEntry type="inheritedJdk"/>
     <content url="file://$MODULE_DIR$/">
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true"/>
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
-      <excludeFolder url="file://$MODULE_DIR$/build"/>
       <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
     </content>
     <orderEntry type="sourceFolder" forTests="false"/>
     <orderEntry type="module" module-name="api"/>
@@ -17,1096 +15,1096 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.40/ef2a2ceab1735eaaae0b5d1cccf574fb7c6e1c52/mysql-connector-java-5.1.40.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.40/ef2a2ceab1735eaaae0b5d1cccf574fb7c6e1c52/mysql-connector-java-5.1.40.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.40/169f98ed31b49399530fede5b3806782026b965/mysql-connector-java-5.1.40-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.40/169f98ed31b49399530fede5b3806782026b965/mysql-connector-java-5.1.40-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.27/f87fe97b31c1b2f1af9a177793b42d01d0cf3362/druid-1.0.27.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.27/f87fe97b31c1b2f1af9a177793b42d01d0cf3362/druid-1.0.27.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.27/8b5e24b141aa3b03646c583601eff2384d7009a3/druid-1.0.27-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.alibaba/druid/1.0.27/8b5e24b141aa3b03646c583601eff2384d7009a3/druid-1.0.27-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/1.10/7189c09ee4d621507c7021b0084b59a3fface2b8/jasypt-spring-boot-starter-1.10.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/1.10/7189c09ee4d621507c7021b0084b59a3fface2b8/jasypt-spring-boot-starter-1.10.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/1.10/7742886f98c774e8caa9fd1fbcd756735fb3fc0f/jasypt-spring-boot-starter-1.10-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot-starter/1.10/7742886f98c774e8caa9fd1fbcd756735fb3fc0f/jasypt-spring-boot-starter-1.10-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.4.3.RELEASE/979b4b961ca5245fbf059cf713b05109aa1c73ab/spring-boot-starter-jetty-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.4.3.RELEASE/979b4b961ca5245fbf059cf713b05109aa1c73ab/spring-boot-starter-jetty-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.4.3.RELEASE/652aa4ebf94501e977ce59bfd7c1196ee73af0d8/spring-boot-starter-jetty-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jetty/1.4.3.RELEASE/652aa4ebf94501e977ce59bfd7c1196ee73af0d8/spring-boot-starter-jetty-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.4.3.RELEASE/7be355e82dee368afbd909b48a5db3b81e981d/spring-boot-starter-security-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.4.3.RELEASE/7be355e82dee368afbd909b48a5db3b81e981d/spring-boot-starter-security-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.4.3.RELEASE/480a08a72fca9ba7c3e9e27e2ecfe77d5b168d16/spring-boot-starter-security-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.4.3.RELEASE/480a08a72fca9ba7c3e9e27e2ecfe77d5b168d16/spring-boot-starter-security-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.4.3.RELEASE/79b4f3ebf23f86c2680cbd37a109272f4e782022/spring-boot-starter-actuator-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.4.3.RELEASE/79b4f3ebf23f86c2680cbd37a109272f4e782022/spring-boot-starter-actuator-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.4.3.RELEASE/6e0bf079072248ff11434441483a29fea3a9298e/spring-boot-starter-actuator-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.4.3.RELEASE/6e0bf079072248ff11434441483a29fea3a9298e/spring-boot-starter-actuator-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-hateoas/1.4.3.RELEASE/682fd8c6df7912a2b30e5f79b1c9c5d3e90dc8e1/spring-boot-starter-hateoas-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-hateoas/1.4.3.RELEASE/682fd8c6df7912a2b30e5f79b1c9c5d3e90dc8e1/spring-boot-starter-hateoas-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-hateoas/1.4.3.RELEASE/563a7bcd9b14a7da4d942a979c533643b481d2f6/spring-boot-starter-hateoas-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-hateoas/1.4.3.RELEASE/563a7bcd9b14a7da4d942a979c533643b481d2f6/spring-boot-starter-hateoas-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.4.3.RELEASE/a89f7ecf1c4fd46b485fd8ec8ea3de95528b7929/spring-boot-devtools-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.4.3.RELEASE/a89f7ecf1c4fd46b485fd8ec8ea3de95528b7929/spring-boot-devtools-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.4.3.RELEASE/1337e9a5f4e77cc2870025924360cb11331d5c50/spring-boot-devtools-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.4.3.RELEASE/1337e9a5f4e77cc2870025924360cb11331d5c50/spring-boot-devtools-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.4.3.RELEASE/29440b1de334d0c1e2a19fc4e554485583c687d0/spring-boot-starter-jersey-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.4.3.RELEASE/29440b1de334d0c1e2a19fc4e554485583c687d0/spring-boot-starter-jersey-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.4.3.RELEASE/432265046b8a35b2cd2b83dffc9b21a7f3f8d300/spring-boot-starter-jersey-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.4.3.RELEASE/432265046b8a35b2cd2b83dffc9b21a7f3f8d300/spring-boot-starter-jersey-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.5/272fa111a332699718e66bb023acdf195099975b/jackson-datatype-jsr310-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.5/272fa111a332699718e66bb023acdf195099975b/jackson-datatype-jsr310-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.5/97412c6f83f02f7d5ae7b3923606976034356676/jackson-datatype-jsr310-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.5/97412c6f83f02f7d5ae7b3923606976034356676/jackson-datatype-jsr310-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.5/71f2207edf124199c5fe72c2cc9e47fda58627cf/jackson-datatype-jdk8-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.5/71f2207edf124199c5fe72c2cc9e47fda58627cf/jackson-datatype-jdk8-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.5/d7c1344441e670d120fb84741bc4849ecc80caa4/jackson-datatype-jdk8-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.5/d7c1344441e670d120fb84741bc4849ecc80caa4/jackson-datatype-jdk8-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.3.RELEASE/1c58783c0694abf695babfd39829922d2d501ec2/spring-boot-starter-logging-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.3.RELEASE/1c58783c0694abf695babfd39829922d2d501ec2/spring-boot-starter-logging-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.3.RELEASE/281a6a783298c0bea2f2322842257cd588a62020/spring-boot-starter-logging-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.3.RELEASE/281a6a783298c0bea2f2322842257cd588a62020/spring-boot-starter-logging-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/ffda06c2144d10239014407333c223a237b73ad7/spring-boot-starter-data-jpa-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/ffda06c2144d10239014407333c223a237b73ad7/spring-boot-starter-data-jpa-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/e4a63ce3ec07d22f1f7e6c139cb052ce19598f3d/spring-boot-starter-data-jpa-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.3.RELEASE/e4a63ce3ec07d22f1f7e6c139cb052ce19598f3d/spring-boot-starter-data-jpa-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/369b51e2090c4e6714d9d5e42010b6330c2cea26/h2-1.4.193.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/369b51e2090c4e6714d9d5e42010b6330c2cea26/h2-1.4.193.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/69830aec064c1a12515981c0d098ade204951478/h2-1.4.193-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.193/69830aec064c1a12515981c0d098ade204951478/h2-1.4.193-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot/1.10/ba5821b49526198b27dc9405ba680056b329f9b9/jasypt-spring-boot-1.10.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot/1.10/ba5821b49526198b27dc9405ba680056b329f9b9/jasypt-spring-boot-1.10.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot/1.10/c3c23a7f0a87d3387113417ad44c196bfdf69d89/jasypt-spring-boot-1.10-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.github.ulisesbocchio/jasypt-spring-boot/1.10/c3c23a7f0a87d3387113417ad44c196bfdf69d89/jasypt-spring-boot-1.10-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.3.14.v20161028/6f49da101a1c3cd1ccd78ac38391bbc36619658e/jetty-servlets-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.3.14.v20161028/6f49da101a1c3cd1ccd78ac38391bbc36619658e/jetty-servlets-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.3.14.v20161028/bcb40e6b147415be9c76da7ef0d4bd195a898f5/jetty-servlets-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlets/9.3.14.v20161028/bcb40e6b147415be9c76da7ef0d4bd195a898f5/jetty-servlets-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.14.v20161028/c9ad20bd632ffe1d8e4631f2ed185310db258f48/jetty-webapp-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.14.v20161028/c9ad20bd632ffe1d8e4631f2ed185310db258f48/jetty-webapp-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.14.v20161028/b325b984c1ebe396acfe6af7ff35d1a65407e8f7/jetty-webapp-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.14.v20161028/b325b984c1ebe396acfe6af7ff35d1a65407e8f7/jetty-webapp-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.3.14.v20161028/83dcfeca469cd5264aeaeb661629cad760281494/websocket-server-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.3.14.v20161028/83dcfeca469cd5264aeaeb661629cad760281494/websocket-server-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.3.14.v20161028/700311a3110b9e8785a9fbe23feaf230147d5927/websocket-server-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.3.14.v20161028/700311a3110b9e8785a9fbe23feaf230147d5927/websocket-server-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.3.14.v20161028/c461343c68056ea296e1817416538cf2b8eafe29/javax-websocket-server-impl-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.3.14.v20161028/c461343c68056ea296e1817416538cf2b8eafe29/javax-websocket-server-impl-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.3.14.v20161028/2ea0fcb7525afe622a08e3d0df62b47d7b2e6c19/javax-websocket-server-impl-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.3.14.v20161028/2ea0fcb7525afe622a08e3d0df62b47d7b2e6c19/javax-websocket-server-impl-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.mortbay.jasper/apache-el/8.0.33/1b8fa2179b3937cada939317bb135815e79c0ac2/apache-el-8.0.33.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.mortbay.jasper/apache-el/8.0.33/1b8fa2179b3937cada939317bb135815e79c0ac2/apache-el-8.0.33.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.mortbay.jasper/apache-el/8.0.33/afccaa25ca1c67c7b1478c3d18dc02f35de07bef/apache-el-8.0.33-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.mortbay.jasper/apache-el/8.0.33/afccaa25ca1c67c7b1478c3d18dc02f35de07bef/apache-el-8.0.33-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.3.RELEASE/c99bad104719e947b3f9aa2b7569583805e4c5d5/spring-boot-starter-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.3.RELEASE/c99bad104719e947b3f9aa2b7569583805e4c5d5/spring-boot-starter-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.3.RELEASE/9efe873b405e7f469cacf5bd4ab88368d76e7316/spring-boot-starter-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.3.RELEASE/9efe873b405e7f469cacf5bd4ab88368d76e7316/spring-boot-starter-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.5.RELEASE/4f113218af716bd8d174c411f19b26418b5a70f6/spring-aop-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.5.RELEASE/4f113218af716bd8d174c411f19b26418b5a70f6/spring-aop-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.5.RELEASE/2c4ffa40bcf102c731e76dc25e0454458538e052/spring-aop-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.5.RELEASE/2c4ffa40bcf102c731e76dc25e0454458538e052/spring-aop-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.1.4.RELEASE/cdbe774537be58d3d7ca0662619bf9f57b5c8209/spring-security-config-4.1.4.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.1.4.RELEASE/cdbe774537be58d3d7ca0662619bf9f57b5c8209/spring-security-config-4.1.4.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.1.4.RELEASE/d41138b987e3d8778d0f74d88b93a9432ed74a85/spring-security-config-4.1.4.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.1.4.RELEASE/d41138b987e3d8778d0f74d88b93a9432ed74a85/spring-security-config-4.1.4.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.1.4.RELEASE/f3560a3e82a910b8005f28552e4cb0660ce50b26/spring-security-web-4.1.4.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.1.4.RELEASE/f3560a3e82a910b8005f28552e4cb0660ce50b26/spring-security-web-4.1.4.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.1.4.RELEASE/811534ddeb00c8026ae84d19f41c4ffc0dda0372/spring-security-web-4.1.4.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.1.4.RELEASE/811534ddeb00c8026ae84d19f41c4ffc0dda0372/spring-security-web-4.1.4.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.4.3.RELEASE/270a42908a44ae4a939a282479db3bb35086a51a/spring-boot-actuator-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.4.3.RELEASE/270a42908a44ae4a939a282479db3bb35086a51a/spring-boot-actuator-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.4.3.RELEASE/d23f037009dbbb6541ccac4f772b28bcfa87aff3/spring-boot-actuator-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.4.3.RELEASE/d23f037009dbbb6541ccac4f772b28bcfa87aff3/spring-boot-actuator-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.3.RELEASE/a0dcc919eda8e8ecb6f13f52a30e6afbb8266103/spring-boot-starter-web-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.3.RELEASE/a0dcc919eda8e8ecb6f13f52a30e6afbb8266103/spring-boot-starter-web-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.3.RELEASE/51b9e88998502a8d6c25eb77b42a681cfa9312c/spring-boot-starter-web-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.3.RELEASE/51b9e88998502a8d6c25eb77b42a681cfa9312c/spring-boot-starter-web-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.20.0.RELEASE/623a5983010e905090f69e55f4e0a63fba195085/spring-hateoas-0.20.0.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.20.0.RELEASE/623a5983010e905090f69e55f4e0a63fba195085/spring-hateoas-0.20.0.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.20.0.RELEASE/ee8cfc14b6fb50a95b15603e49090f7070c9a03e/spring-hateoas-0.20.0.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.20.0.RELEASE/ee8cfc14b6fb50a95b15603e49090f7070c9a03e/spring-hateoas-0.20.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/112d82259202fa909d51cf7ccefae0c5523f1373/spring-plugin-core-1.2.0.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/112d82259202fa909d51cf7ccefae0c5523f1373/spring-plugin-core-1.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.3.RELEASE/17f94def4460075afdfba6bf8f897cd1fc95bf77/spring-boot-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.3.RELEASE/17f94def4460075afdfba6bf8f897cd1fc95bf77/spring-boot-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.3.RELEASE/eef79dce82a556a2948a1762f44576934a941ca1/spring-boot-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.3.RELEASE/eef79dce82a556a2948a1762f44576934a941ca1/spring-boot-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.3.RELEASE/41df1bfbdd4ae4e8499ebe1a4bc613bda316d6e1/spring-boot-autoconfigure-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.3.RELEASE/41df1bfbdd4ae4e8499ebe1a4bc613bda316d6e1/spring-boot-autoconfigure-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.3.RELEASE/469c17fa3857629c52650aa3a15d4d3e9729da64/spring-boot-autoconfigure-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.3.RELEASE/469c17fa3857629c52650aa3a15d4d3e9729da64/spring-boot-autoconfigure-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.github.briandilley.jsonrpc4j/jsonrpc4j/1.4.6/7ed0354843cde57f2d5228e70cbcd5944f379cb8/jsonrpc4j-1.4.6.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.github.briandilley.jsonrpc4j/jsonrpc4j/1.4.6/7ed0354843cde57f2d5228e70cbcd5944f379cb8/jsonrpc4j-1.4.6.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.github.briandilley.jsonrpc4j/jsonrpc4j/1.4.6/2f2feb109321ba5d7610e1f7ad7a8274661849fc/jsonrpc4j-1.4.6-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.github.briandilley.jsonrpc4j/jsonrpc4j/1.4.6/2f2feb109321ba5d7610e1f7ad7a8274661849fc/jsonrpc4j-1.4.6-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/a1c83373863cec7ae8d89dc1c5722d8cb6ec0309/slf4j-api-1.7.22.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/a1c83373863cec7ae8d89dc1c5722d8cb6ec0309/slf4j-api-1.7.22.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/2b9722cdf33bd0b1d1639a98034dde38b156ad34/slf4j-api-1.7.22-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/2b9722cdf33bd0b1d1639a98034dde38b156ad34/slf4j-api-1.7.22-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.8/e54f49a227611976642f81cf2106b81c1ece8bf5/logback-classic-1.1.8.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.8/e54f49a227611976642f81cf2106b81c1ece8bf5/logback-classic-1.1.8.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.8/b99f99fd806e4472bc520274f9191ffaf250827c/logback-classic-1.1.8-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.8/b99f99fd806e4472bc520274f9191ffaf250827c/logback-classic-1.1.8-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.8/b4d1c3dea91727faf8b3d19cf4b9b972d6c0b89/logback-core-1.1.8.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.8/b4d1c3dea91727faf8b3d19cf4b9b972d6c0b89/logback-core-1.1.8.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.8/2ef0d29dc5c06c390f826a53c2fd137d4419e9a1/logback-core-1.1.8-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.8/2ef0d29dc5c06c390f826a53c2fd137d4419e9a1/logback-core-1.1.8-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.3.RELEASE/6d8ee356222ed1e7195c8b9fa7588c51a6ad6216/spring-boot-starter-validation-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.3.RELEASE/6d8ee356222ed1e7195c8b9fa7588c51a6ad6216/spring-boot-starter-validation-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.3.RELEASE/c5e0c8890c085c6651f166aea479eee493c2fe95/spring-boot-starter-validation-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.4.3.RELEASE/c5e0c8890c085c6651f166aea479eee493c2fe95/spring-boot-starter-validation-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b658c4640ee224391e699ebaea4a3eb1c2ea8239/jackson-databind-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b658c4640ee224391e699ebaea4a3eb1c2ea8239/jackson-databind-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/6641daccf2fddafc8358144f3a4f999130fdf144/spring-web-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/6641daccf2fddafc8358144f3a4f999130fdf144/spring-web-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/880796aaf6acaa40144c435d41a1b2ea509fa4ae/spring-web-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.5.RELEASE/880796aaf6acaa40144c435d41a1b2ea509fa4ae/spring-web-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.23.2/f17025b8e32b48bee43b2c9ca40e21fc90cf38fb/jersey-server-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.23.2/f17025b8e32b48bee43b2c9ca40e21fc90cf38fb/jersey-server-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.23.2/df33a03c069ab70d114eaefd6ab3dbcde673d739/jersey-server-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.23.2/df33a03c069ab70d114eaefd6ab3dbcde673d739/jersey-server-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.23.2/c9937b31b90d61bd543f6805f93b6c394de6e842/jersey-container-servlet-core-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.23.2/c9937b31b90d61bd543f6805f93b6c394de6e842/jersey-container-servlet-core-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.23.2/6a4678475ac6c300ff714e3989d9b09b55e16b37/jersey-container-servlet-core-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.23.2/6a4678475ac6c300ff714e3989d9b09b55e16b37/jersey-container-servlet-core-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.23.2/47da89ccedf144858c1a604b69c9b9515c2c9ea/jersey-container-servlet-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.23.2/47da89ccedf144858c1a604b69c9b9515c2c9ea/jersey-container-servlet-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.23.2/943a6fc7fbe4448764dd0ff24de9f61f5759c028/jersey-container-servlet-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.23.2/943a6fc7fbe4448764dd0ff24de9f61f5759c028/jersey-container-servlet-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.23.2/da31d624a9f1c0820a9138d49fcc593b685c5804/jersey-bean-validation-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.23.2/da31d624a9f1c0820a9138d49fcc593b685c5804/jersey-bean-validation-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.23.2/7aea704ae3dcf0e36d8f357a71b81242b0014eb8/jersey-bean-validation-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.23.2/7aea704ae3dcf0e36d8f357a71b81242b0014eb8/jersey-bean-validation-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.23.2/e4b2030dccde4aae0816dabffa93e3ba57c28dfb/jersey-spring3-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.23.2/e4b2030dccde4aae0816dabffa93e3ba57c28dfb/jersey-spring3-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.23.2/593f7cbbf538401bca96844486dfed5dccf1756b/jersey-spring3-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.23.2/593f7cbbf538401bca96844486dfed5dccf1756b/jersey-spring3-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.23.2/d1e998ab7f00dbdbc543b1a916f63c2616c202ab/jersey-media-json-jackson-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.23.2/d1e998ab7f00dbdbc543b1a916f63c2616c202ab/jersey-media-json-jackson-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.23.2/467a9cd33d31f30bccd26b4f58aa947fd12feea1/jersey-media-json-jackson-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.23.2/467a9cd33d31f30bccd26b4f58aa947fd12feea1/jersey-media-json-jackson-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/9d82ff47bc2c2d3b5b6a6618fe636782bbcd5b07/jackson-annotations-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/9d82ff47bc2c2d3b5b6a6618fe636782bbcd5b07/jackson-annotations-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/8c5c4f090d5a215bf404fd8d9e7d97adb4273bfb/jackson-annotations-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.5/8c5c4f090d5a215bf404fd8d9e7d97adb4273bfb/jackson-annotations-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/14b04ebe5d1d9b54b793f84245d983b4c329634d/jackson-core-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/14b04ebe5d1d9b54b793f84245d983b4c329634d/jackson-core-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.22/86ceac14535af5a42c8fb0d06d79b925dd3cb263/jcl-over-slf4j-1.7.22.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.22/86ceac14535af5a42c8fb0d06d79b925dd3cb263/jcl-over-slf4j-1.7.22.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.22/b03a290ee39cf7c2eed57a73402ce25d9f76ff00/jcl-over-slf4j-1.7.22-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.22/b03a290ee39cf7c2eed57a73402ce25d9f76ff00/jcl-over-slf4j-1.7.22-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.22/b0429e950b3d2bc2c39c1bacafac753edbe3781c/jul-to-slf4j-1.7.22.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.22/b0429e950b3d2bc2c39c1bacafac753edbe3781c/jul-to-slf4j-1.7.22.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.22/d2158381996b93b2463199e0f6fd3bbdab8bed37/jul-to-slf4j-1.7.22-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.22/d2158381996b93b2463199e0f6fd3bbdab8bed37/jul-to-slf4j-1.7.22-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.22/a527c37e9ca6c3d19ba298edd4aa344ca751a203/log4j-over-slf4j-1.7.22.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.22/a527c37e9ca6c3d19ba298edd4aa344ca751a203/log4j-over-slf4j-1.7.22.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.22/8a3cc85e3fbf330e2463142047cc38fba3ad1886/log4j-over-slf4j-1.7.22-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.22/8a3cc85e3fbf330e2463142047cc38fba3ad1886/log4j-over-slf4j-1.7.22-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.3.RELEASE/30b11b6455bed446d3b4a1a49fab529b2cfac454/spring-boot-starter-aop-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.3.RELEASE/30b11b6455bed446d3b4a1a49fab529b2cfac454/spring-boot-starter-aop-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.3.RELEASE/a16282a228e394ad772f9af7fa50257a16a721f9/spring-boot-starter-aop-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.3.RELEASE/a16282a228e394ad772f9af7fa50257a16a721f9/spring-boot-starter-aop-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.3.RELEASE/7ce66cf27ea731189248be7af2ab84ba189e1151/spring-boot-starter-jdbc-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.3.RELEASE/7ce66cf27ea731189248be7af2ab84ba189e1151/spring-boot-starter-jdbc-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.3.RELEASE/9dc2f4fe339065d809182c7eceb037b613c0c0ea/spring-boot-starter-jdbc-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.3.RELEASE/9dc2f4fe339065d809182c7eceb037b613c0c0ea/spring-boot-starter-jdbc-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.11.Final/c2487fb72a2217a7cec9ab478d4c21a36fc09977/hibernate-core-5.0.11.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.11.Final/c2487fb72a2217a7cec9ab478d4c21a36fc09977/hibernate-core-5.0.11.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.11.Final/f798d6a909ca06997b9350948edb79f8e19171af/hibernate-core-5.0.11.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.11.Final/f798d6a909ca06997b9350948edb79f8e19171af/hibernate-core-5.0.11.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.11.Final/549565caed4e0bcb816843693e66ff7b04ce025f/hibernate-entitymanager-5.0.11.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.11.Final/549565caed4e0bcb816843693e66ff7b04ce025f/hibernate-entitymanager-5.0.11.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.11.Final/c8f7030c720b9d16a30fe312af5c86bfceece570/hibernate-entitymanager-5.0.11.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.11.Final/c8f7030c720b9d16a30fe312af5c86bfceece570/hibernate-entitymanager-5.0.11.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/5d1fb3fe056fe51e6f6ed9b4ef4898a774ed69c0/javax.transaction-api-1.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/5d1fb3fe056fe51e6f6ed9b4ef4898a774ed69c0/javax.transaction-api-1.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.6.RELEASE/5d478860b24a493845248c1c336c33a657567bd3/spring-data-jpa-1.10.6.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.6.RELEASE/5d478860b24a493845248c1c336c33a657567bd3/spring-data-jpa-1.10.6.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.6.RELEASE/b05aeb296632602fd49e1db382521c6c5eaa5ce5/spring-data-jpa-1.10.6.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.6.RELEASE/b05aeb296632602fd49e1db382521c6c5eaa5ce5/spring-data-jpa-1.10.6.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.5.RELEASE/8c00c15865a1da0a1ba143a50622a8436a56e097/spring-aspects-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.5.RELEASE/8c00c15865a1da0a1ba143a50622a8436a56e097/spring-aspects-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.5.RELEASE/d36c94066511de438f48562688b83162f1431862/spring-aspects-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.5.RELEASE/d36c94066511de438f48562688b83162f1431862/spring-aspects-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt/1.9.2/91eee489a389faba9fc57bfee75c87c615c19cd7/jasypt-1.9.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt/1.9.2/91eee489a389faba9fc57bfee75c87c615c19cd7/jasypt-1.9.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt/1.9.2/702f968b6fe5b73722b1ac1f5d1f5169da294879/jasypt-1.9.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.jasypt/jasypt/1.9.2/702f968b6fe5b73722b1ac1f5d1f5169da294879/jasypt-1.9.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.3.14.v20161028/4ba272cee2e367766dfdc1901c960de352160d41/jetty-continuation-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.3.14.v20161028/4ba272cee2e367766dfdc1901c960de352160d41/jetty-continuation-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.3.14.v20161028/790d3719c461ba29e99815fa23203cd15b04559f/jetty-continuation-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.3.14.v20161028/790d3719c461ba29e99815fa23203cd15b04559f/jetty-continuation-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.14.v20161028/ea3800883f79f757b2635a737bb71bb21e90cf19/jetty-http-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.14.v20161028/ea3800883f79f757b2635a737bb71bb21e90cf19/jetty-http-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.14.v20161028/db0a798ab782e57303df1be863c1dd9c8fe940b3/jetty-http-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.14.v20161028/db0a798ab782e57303df1be863c1dd9c8fe940b3/jetty-http-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.14.v20161028/fbf89f6f3b995992f82ec09104ab9a75d31d281b/jetty-util-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.14.v20161028/fbf89f6f3b995992f82ec09104ab9a75d31d281b/jetty-util-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.14.v20161028/7754cdd65f9135b27b5b8406336f7af793de714f/jetty-util-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.14.v20161028/7754cdd65f9135b27b5b8406336f7af793de714f/jetty-util-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.14.v20161028/52d796b58c3a997e59e6b47c4bf022cedcba3514/jetty-io-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.14.v20161028/52d796b58c3a997e59e6b47c4bf022cedcba3514/jetty-io-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.14.v20161028/79a29edb7783c8f87db701505a210d1279524f0e/jetty-io-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.14.v20161028/79a29edb7783c8f87db701505a210d1279524f0e/jetty-io-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.14.v20161028/3054375490c577ee6156a4b63ec262a39b36fc7e/jetty-xml-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.14.v20161028/3054375490c577ee6156a4b63ec262a39b36fc7e/jetty-xml-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.14.v20161028/7fc6f2910f64139ec9f3fc1807728b23401e0e13/jetty-xml-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.14.v20161028/7fc6f2910f64139ec9f3fc1807728b23401e0e13/jetty-xml-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.14.v20161028/b5714a6005387b2a361d5b39a3a37d4df1892e62/jetty-servlet-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.14.v20161028/b5714a6005387b2a361d5b39a3a37d4df1892e62/jetty-servlet-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.14.v20161028/f14fc1d76e73fc1ee5aff0c512094eb5d67cccf7/jetty-servlet-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.14.v20161028/f14fc1d76e73fc1ee5aff0c512094eb5d67cccf7/jetty-servlet-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.3.14.v20161028/4c7492132d000d1bb8885ea34659e193b9b84c51/websocket-common-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.3.14.v20161028/4c7492132d000d1bb8885ea34659e193b9b84c51/websocket-common-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.3.14.v20161028/6c9f3468f99985cfedb74359074fedd41cc29b92/websocket-common-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.3.14.v20161028/6c9f3468f99985cfedb74359074fedd41cc29b92/websocket-common-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.3.14.v20161028/af3c2db7bb993015d2bb544b883cbc7e38830ac0/websocket-client-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.3.14.v20161028/af3c2db7bb993015d2bb544b883cbc7e38830ac0/websocket-client-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.3.14.v20161028/e23d1f4d5311fb6e99130d09b06c7c7da5b34ed/websocket-client-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.3.14.v20161028/e23d1f4d5311fb6e99130d09b06c7c7da5b34ed/websocket-client-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.3.14.v20161028/f7669d0af249647484f33ef8641f893328e133d0/websocket-servlet-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.3.14.v20161028/f7669d0af249647484f33ef8641f893328e133d0/websocket-servlet-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.3.14.v20161028/96739995a4001b91d1a5992ae68551fcd977093/websocket-servlet-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.3.14.v20161028/96739995a4001b91d1a5992ae68551fcd977093/websocket-servlet-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.3.14.v20161028/689e88f74cacf546420f58ea159d70eb5a72f5ac/jetty-annotations-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.3.14.v20161028/689e88f74cacf546420f58ea159d70eb5a72f5ac/jetty-annotations-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.3.14.v20161028/299fd0ac2e728b5aa31716009724b881565ecb68/jetty-annotations-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.3.14.v20161028/299fd0ac2e728b5aa31716009724b881565ecb68/jetty-annotations-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.3.14.v20161028/6fcbb3318e482076974091c236e596f2acb8650a/javax-websocket-client-impl-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.3.14.v20161028/6fcbb3318e482076974091c236e596f2acb8650a/javax-websocket-client-impl-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.3.14.v20161028/c39944732bf35d199a6e271462152d3e882cd452/javax-websocket-client-impl-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.3.14.v20161028/c39944732bf35d199a6e271462152d3e882cd452/javax-websocket-client-impl-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/fc843b649d4a1dcb0497669d262befa3918c7ba8/javax.websocket-api-1.0.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/fc843b649d4a1dcb0497669d262befa3918c7ba8/javax.websocket-api-1.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/107b0fdc7ca320b54dc1393e01585be5883ff348/javax.websocket-api-1.0-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/107b0fdc7ca320b54dc1393e01585be5883ff348/javax.websocket-api-1.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/80299e3f80e8c6d5c076db2ba6adf44a4b52f578/spring-core-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/80299e3f80e8c6d5c076db2ba6adf44a4b52f578/spring-core-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/37ffcbcc73fff035658150baf6c0515700b2f511/spring-core-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.5.RELEASE/37ffcbcc73fff035658150baf6c0515700b2f511/spring-core-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.5.RELEASE/e12bbc3277da28e2e2608a187f83091dc6c300bf/spring-beans-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.5.RELEASE/e12bbc3277da28e2e2608a187f83091dc6c300bf/spring-beans-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.5.RELEASE/43d8d70be183b724e78abe79c7e19e560756a2b5/spring-beans-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.5.RELEASE/43d8d70be183b724e78abe79c7e19e560756a2b5/spring-beans-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.1.4.RELEASE/382ca3b438f686c664c539a72cc6a2c81f8592fa/spring-security-core-4.1.4.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.1.4.RELEASE/382ca3b438f686c664c539a72cc6a2c81f8592fa/spring-security-core-4.1.4.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.1.4.RELEASE/759112952c5e0e948601b869b420faf0e535c35d/spring-security-core-4.1.4.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.1.4.RELEASE/759112952c5e0e948601b869b420faf0e535c35d/spring-security-core-4.1.4.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.5.RELEASE/ca3391c0e17d0138335ba51b51371661d20d56a8/spring-context-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.5.RELEASE/ca3391c0e17d0138335ba51b51371661d20d56a8/spring-context-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.5.RELEASE/4c03e1edd2e37b49a657428773ebab26cb7b0eeb/spring-context-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.5.RELEASE/4c03e1edd2e37b49a657428773ebab26cb7b0eeb/spring-context-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.5.RELEASE/3689dc6c5b942ecde4122eac889ed87977d6f287/spring-expression-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.5.RELEASE/3689dc6c5b942ecde4122eac889ed87977d6f287/spring-expression-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.5.RELEASE/384b00510147decc5c3296a0d215280ffa11e43c/spring-expression-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.5.RELEASE/384b00510147decc5c3296a0d215280ffa11e43c/spring-expression-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.3.RELEASE/61c48035a7a3b06b42fdd07b7109e562077b3792/spring-boot-starter-tomcat-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.3.RELEASE/61c48035a7a3b06b42fdd07b7109e562077b3792/spring-boot-starter-tomcat-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.3.RELEASE/b6c60bcf49b05f07e0196e96c40c08dfb1644623/spring-boot-starter-tomcat-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.3.RELEASE/b6c60bcf49b05f07e0196e96c40c08dfb1644623/spring-boot-starter-tomcat-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/b02d7b80cdadbfc51106252238fc1a667c8287eb/hibernate-validator-5.2.4.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/b02d7b80cdadbfc51106252238fc1a667c8287eb/hibernate-validator-5.2.4.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.5.RELEASE/c624659217edab07d8279fb0f90462136f089220/spring-webmvc-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.5.RELEASE/c624659217edab07d8279fb0f90462136f089220/spring-webmvc-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.5.RELEASE/6bd0fbc166bd348ab3f81e8b33a74679243cfaac/spring-webmvc-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.5.RELEASE/6bd0fbc166bd348ab3f81e8b33a74679243cfaac/spring-webmvc-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.9/6c34d1c85141be8a21b0a957d84359894e2684b7/base64-2.3.9.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.9/6c34d1c85141be8a21b0a957d84359894e2684b7/base64-2.3.9.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.9/f7aa9fa9bdb0c9d6ade1586c979d631cf71e8645/base64-2.3.9-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/net.iharder/base64/2.3.9/f7aa9fa9bdb0c9d6ade1586c979d631cf71e8645/base64-2.3.9-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.6/a102298d8dc72f4065533d5962953d753b172602/tomcat-embed-el-8.5.6.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.6/a102298d8dc72f4065533d5962953d753b172602/tomcat-embed-el-8.5.6.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.6/226e45ecd3ade37a2a8ddcf0f212133ecf7bf823/tomcat-embed-el-8.5.6-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.6/226e45ecd3ade37a2a8ddcf0f212133ecf7bf823/tomcat-embed-el-8.5.6-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.23.2/84df56324789921fb408985dc1355f628de0b80c/jersey-common-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.23.2/84df56324789921fb408985dc1355f628de0b80c/jersey-common-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.23.2/fb3029d4f936cddc6af423dc00c857bc35bae03c/jersey-common-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.23.2/fb3029d4f936cddc6af423dc00c857bc35bae03c/jersey-common-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.23.2/90ea1d2edb93653d15fce3c3b4a20f2237690900/jersey-client-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.23.2/90ea1d2edb93653d15fce3c3b4a20f2237690900/jersey-client-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.23.2/ab0304591877ec5ef1134625f05b2ccb181c70c7/jersey-client-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.23.2/ab0304591877ec5ef1134625f05b2ccb181c70c7/jersey-client-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/a20db7429fd8dfff74335ec867472b71c345049b/javax.ws.rs-api-2.0.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/a20db7429fd8dfff74335ec867472b71c345049b/javax.ws.rs-api-2.0.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.23.2/25c2d322e193371ab800367f553207290da1cb0b/jersey-media-jaxb-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.23.2/25c2d322e193371ab800367f553207290da1cb0b/jersey-media-jaxb-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.23.2/2feb4ee7af1aca462f8eff2645473f10edce7a88/jersey-media-jaxb-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.23.2/2feb4ee7af1aca462f8eff2645473f10edce7a88/jersey-media-jaxb-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/ad18a02db08eaee697f812e333f692fc51129e4a/javax.annotation-api-1.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/ad18a02db08eaee697f812e333f692fc51129e4a/javax.annotation-api-1.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b05/d54a52f5b869b247348cb0ec08edd432c22ef65f/hk2-api-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b05/d54a52f5b869b247348cb0ec08edd432c22ef65f/hk2-api-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b05/f442ec8b65df69b7abe57bcbee3acf90af6600bc/hk2-api-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b05/f442ec8b65df69b7abe57bcbee3acf90af6600bc/hk2-api-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b05/aad1872e1bf5e573229b7ec143d6f83f33b753e4/javax.inject-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b05/aad1872e1bf5e573229b7ec143d6f83f33b753e4/javax.inject-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b05/194f20942f15218468be44529fe5362bc6b1ed7d/javax.inject-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b05/194f20942f15218468be44529fe5362bc6b1ed7d/javax.inject-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b05/bed6e7565ce9491a53f047c17e3951b4dfd101fa/hk2-locator-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b05/bed6e7565ce9491a53f047c17e3951b4dfd101fa/hk2-locator-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b05/3e3d048eae9f2547f8246646aebf3fd8dffdc552/hk2-locator-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b05/3e3d048eae9f2547f8246646aebf3fd8dffdc552/hk2-locator-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b05/8d407b86c3867f72abbcfea82d306e4effd6093d/hk2-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b05/8d407b86c3867f72abbcfea82d306e4effd6093d/hk2-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b05/7f7173b05a2b2ba59a8f9aca98c7e006974020dd/hk2-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b05/7f7173b05a2b2ba59a8f9aca98c7e006974020dd/hk2-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b05/5a06624b45c1b6b4a82f87bc0f0e9f3c4fd36f5a/spring-bridge-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b05/5a06624b45c1b6b4a82f87bc0f0e9f3c4fd36f5a/spring-bridge-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b05/cf3038a60f0d58dc9a4a22aa1ba8636f34f3468b/spring-bridge-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b05/cf3038a60f0d58dc9a4a22aa1ba8636f34f3468b/spring-bridge-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.23.2/f2d453e79ccf4c1f6e6a62553ff6fa91a3b19820/jersey-entity-filtering-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.23.2/f2d453e79ccf4c1f6e6a62553ff6fa91a3b19820/jersey-entity-filtering-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.23.2/51fa6e7ecd268ed78257d01a47e958793a874bd4/jersey-entity-filtering-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.23.2/51fa6e7ecd268ed78257d01a47e958793a874bd4/jersey-entity-filtering-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.5/47da0f6caa07f4e27da81dd44be27b6faef56a7c/jackson-jaxrs-base-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.5/47da0f6caa07f4e27da81dd44be27b6faef56a7c/jackson-jaxrs-base-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.5/38fcd02e2d413b3aeb2743e9ceb23be000eeb365/jackson-jaxrs-base-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.5/38fcd02e2d413b3aeb2743e9ceb23be000eeb365/jackson-jaxrs-base-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.5/b800ff98270c3cbaa603ac8b087553d26b0d8286/jackson-jaxrs-json-provider-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.5/b800ff98270c3cbaa603ac8b087553d26b0d8286/jackson-jaxrs-json-provider-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.5/81ae50833871d6caaf08d6d5edf8862e40d01cd3/jackson-jaxrs-json-provider-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.5/81ae50833871d6caaf08d6d5edf8862e40d01cd3/jackson-jaxrs-json-provider-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/9a10b6740c821d03b800a6062284b4a99de4fbeb/aspectjweaver-1.8.9-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/9a10b6740c821d03b800a6062284b4a99de4fbeb/aspectjweaver-1.8.9-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/feb10a9e22f70565c7556f327b0481dba8587bbc/tomcat-jdbc-8.5.6.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/feb10a9e22f70565c7556f327b0481dba8587bbc/tomcat-jdbc-8.5.6.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/6ca6bb25bc4fb7c929a38a9d04814ddf4214e2c1/tomcat-jdbc-8.5.6-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.6/6ca6bb25bc4fb7c929a38a9d04814ddf4214e2c1/tomcat-jdbc-8.5.6-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.5.RELEASE/7c09e38b6f6e0b178973dea06bb8fdc6d19aa596/spring-jdbc-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.5.RELEASE/7c09e38b6f6e0b178973dea06bb8fdc6d19aa596/spring-jdbc-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.5.RELEASE/98fd4bdddaf39f7301a400d7c993a08512423496/spring-jdbc-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.5.RELEASE/98fd4bdddaf39f7301a400d7c993a08512423496/spring-jdbc-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3625e6818158ddb4754fa2ec51299e5f57e596b4/jboss-logging-3.3.0.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3625e6818158ddb4754fa2ec51299e5f57e596b4/jboss-logging-3.3.0.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/33fbaa7276b774ef0925f541640f6ff23fbc62dc/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/33fbaa7276b774ef0925f541640f6ff23fbc62dc/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES/>
@@ -1115,506 +1113,506 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jandex-2.0.0.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jandex-2.0.0.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/614a36762219d78e9ea3be22c47e6c2933e2db71/jandex-2.0.0.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/614a36762219d78e9ea3be22c47e6c2933e2db71/jandex-2.0.0.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/a8e7149359255f43e0e5e3b1837948f9ed5861fb/dom4j-1.6.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/a8e7149359255f43e0e5e3b1837948f9ed5861fb/dom4j-1.6.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/203038e420aaa3fa6df8bad4fda19ca1e2824005/hibernate-commons-annotations-5.0.1.Final-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/203038e420aaa3fa6df8bad4fda19ca1e2824005/hibernate-commons-annotations-5.0.1.Final-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.6.RELEASE/b6403dcfce33e89613f364d80d653d7540279c47/spring-data-commons-1.12.6.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.6.RELEASE/b6403dcfce33e89613f364d80d653d7540279c47/spring-data-commons-1.12.6.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.6.RELEASE/dd3c0c1b927a69cbedd196d0317895888bf023d7/spring-data-commons-1.12.6.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.6.RELEASE/dd3c0c1b927a69cbedd196d0317895888bf023d7/spring-data-commons-1.12.6.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.5.RELEASE/64c29d310b69bcc6e1fd5a738fa3629bdedb2d3f/spring-orm-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.5.RELEASE/64c29d310b69bcc6e1fd5a738fa3629bdedb2d3f/spring-orm-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.5.RELEASE/2b0acc673deb03d643b0de669272f94bc94b9fd6/spring-orm-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.5.RELEASE/2b0acc673deb03d643b0de669272f94bc94b9fd6/spring-orm-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.5.RELEASE/296d8ae21fadc0f115dae7d1e8d5c4f8c7de2c3e/spring-tx-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.5.RELEASE/296d8ae21fadc0f115dae7d1e8d5c4f8c7de2c3e/spring-tx-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.5.RELEASE/e31c06eb8067b44caa5772ff4229caad40f15efa/spring-tx-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.5.RELEASE/e31c06eb8067b44caa5772ff4229caad40f15efa/spring-tx-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.14.v20161028/68be91fa1bcc82eed1709d36e6a85db7d5aff331/jetty-security-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.14.v20161028/68be91fa1bcc82eed1709d36e6a85db7d5aff331/jetty-security-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.14.v20161028/7bf1b1d6ad170a92d31d75e2f8a7eb470d9bd119/jetty-security-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.14.v20161028/7bf1b1d6ad170a92d31d75e2f8a7eb470d9bd119/jetty-security-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.3.14.v20161028/7f4af518fe69c17311fffc655bdc155efbea5d31/websocket-api-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.3.14.v20161028/7f4af518fe69c17311fffc655bdc155efbea5d31/websocket-api-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.3.14.v20161028/d494fc19afb4c55ccbf532251488bbab513b9fbd/websocket-api-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.3.14.v20161028/d494fc19afb4c55ccbf532251488bbab513b9fbd/websocket-api-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.3.14.v20161028/312be9b7119f7377675b2f07389d8fa584b7e77d/jetty-plus-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.3.14.v20161028/312be9b7119f7377675b2f07389d8fa584b7e77d/jetty-plus-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.3.14.v20161028/dcfd2752fc1a52fb664a9a4a83141799bd822fef/jetty-plus-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.3.14.v20161028/dcfd2752fc1a52fb664a9a4a83141799bd822fef/jetty-plus-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.1/2fd56467a018aafe6ec6a73ccba520be4a7e1565/asm-5.0.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.1/2fd56467a018aafe6ec6a73ccba520be4a7e1565/asm-5.0.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-5.0.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-5.0.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.1/7b7147a390a93a14d2edfdcf3f7b0e87a0939c3e/asm-commons-5.0.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.1/7b7147a390a93a14d2edfdcf3f7b0e87a0939c3e/asm-commons-5.0.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-commons-5.0.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-commons-5.0.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/960834b5abc6b2135250487abf6c060a0fa5a22e/tomcat-embed-core-8.5.6.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/960834b5abc6b2135250487abf6c060a0fa5a22e/tomcat-embed-core-8.5.6.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/758721dd7e0d44edbc1048c47a8b7c56e6ba1c9d/tomcat-embed-core-8.5.6-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.6/758721dd7e0d44edbc1048c47a8b7c56e6ba1c9d/tomcat-embed-core-8.5.6-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.6/6f6940a216b380ea8506530c374fcfeef820ba54/tomcat-embed-websocket-8.5.6.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.6/6f6940a216b380ea8506530c374fcfeef820ba54/tomcat-embed-websocket-8.5.6.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.6/bc5ba33a18c04074dd1988edd1f9cfce9ce0ed6a/tomcat-embed-websocket-8.5.6-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.6/bc5ba33a18c04074dd1988edd1f9cfce9ce0ed6a/tomcat-embed-websocket-8.5.6-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.3/864c8e370a691e343210cc7c532fc198cee460d8/classmate-1.3.3.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.3/864c8e370a691e343210cc7c532fc198cee460d8/classmate-1.3.3.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.3/959904631fc3caef02ab82c4ee31c6882b910b12/classmate-1.3.3-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.3/959904631fc3caef02ab82c4ee31c6882b910b12/classmate-1.3.3-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.23.2/eead3375706f2d5df991e14821efe509bfb182e0/jersey-guava-2.23.2.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.23.2/eead3375706f2d5df991e14821efe509bfb182e0/jersey-guava-2.23.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.23.2/2ad15a107ef0be6b63d3a197acd70b648c5f6ad7/jersey-guava-2.23.2-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.23.2/2ad15a107ef0be6b63d3a197acd70b648c5f6ad7/jersey-guava-2.23.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/osgi-resource-locator-1.0.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/osgi-resource-locator-1.0.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/b5685f8eaa7d83351b185a82a92abcd1b8b87fc8/osgi-resource-locator-1.0.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/b5685f8eaa7d83351b185a82a92abcd1b8b87fc8/osgi-resource-locator-1.0.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b05/ede783b3e16339f83603e3293c83bda7a88526bc/hk2-utils-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b05/ede783b3e16339f83603e3293c83bda7a88526bc/hk2-utils-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b05/f7d900a9bec1eaf22de404a8ca8921e5854064b8/hk2-utils-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b05/f7d900a9bec1eaf22de404a8ca8921e5854064b8/hk2-utils-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b05/51becf370a71dad73e6bcc554efb7246ad24c492/aopalliance-repackaged-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b05/51becf370a71dad73e6bcc554efb7246ad24c492/aopalliance-repackaged-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b05/71228399130f5051a96d2c9363a066d1a8c9d0d/aopalliance-repackaged-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b05/71228399130f5051a96d2c9363a066d1a8c9d0d/aopalliance-repackaged-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b05/3870dd88220b99fc6be1f4b54aeb8442aed3c3a6/config-types-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b05/3870dd88220b99fc6be1f4b54aeb8442aed3c3a6/config-types-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b05/f0bcccc155cdd7f8eb4f638ae6503f894a46d30f/config-types-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b05/f0bcccc155cdd7f8eb4f638ae6503f894a46d30f/config-types-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b05/cff50bf8954aa598fca66c741c206168ac3802fd/hk2-core-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b05/cff50bf8954aa598fca66c741c206168ac3802fd/hk2-core-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b05/19a0becb9480ad94ce1f43e62dd45d8cff680a21/hk2-core-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b05/19a0becb9480ad94ce1f43e62dd45d8cff680a21/hk2-core-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b05/54a48389905d84fe9840d9016ad3c4dcc358f445/hk2-config-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b05/54a48389905d84fe9840d9016ad3c4dcc358f445/hk2-config-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b05/87e19151e9450f8dbfb09736c5c117b3d5b1123d/hk2-config-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b05/87e19151e9450f8dbfb09736c5c117b3d5b1123d/hk2-config-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b05/ecbe98ddb2365f083d1bc407bb564951d970de98/hk2-runlevel-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b05/ecbe98ddb2365f083d1bc407bb564951d970de98/hk2-runlevel-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b05/c7c5593f7b5183eb686bbd45e2a32db6edaa5a2c/hk2-runlevel-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b05/c7c5593f7b5183eb686bbd45e2a32db6edaa5a2c/hk2-runlevel-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b05/b2c3f61b452ec6fe3406face9f29359c8dfee2fe/class-model-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b05/b2c3f61b452ec6fe3406face9f29359c8dfee2fe/class-model-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b05/bfe3bb1c00ae125489179eb8162c76983ef7e210/class-model-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b05/bfe3bb1c00ae125489179eb8162c76983ef7e210/class-model-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.5/11ba9aba1c9dd9d94b92ecfc10cfffac2f1753bb/jackson-module-jaxb-annotations-2.8.5.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.5/11ba9aba1c9dd9d94b92ecfc10cfffac2f1753bb/jackson-module-jaxb-annotations-2.8.5.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.5/edb4e912bd9b336198b562574c1d72a6750f6b24/jackson-module-jaxb-annotations-2.8.5-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.5/edb4e912bd9b336198b562574c1d72a6750f6b24/jackson-module-jaxb-annotations-2.8.5-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/83d2d1e3362ecca504f3bf8ed1bc4cc451754d24/tomcat-juli-8.5.6.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/83d2d1e3362ecca504f3bf8ed1bc4cc451754d24/tomcat-juli-8.5.6.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/64fb2a6a592d1acb01b5befc31479e0ea618af69/tomcat-juli-8.5.6-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.6/64fb2a6a592d1acb01b5befc31479e0ea618af69/tomcat-juli-8.5.6-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/5502da0c4c0a7916a604356ef19394ccfa30cd4b/xml-apis-1.4.01-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.14.v20161028/791df6c55ad62841ff518ba6634e905a95567260/jetty-server-9.3.14.v20161028.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.14.v20161028/791df6c55ad62841ff518ba6634e905a95567260/jetty-server-9.3.14.v20161028.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.14.v20161028/a45a3c200e1fe3cf21a6d276516cd0842dedd852/jetty-server-9.3.14.v20161028-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.14.v20161028/a45a3c200e1fe3cf21a6d276516cd0842dedd852/jetty-server-9.3.14.v20161028-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.1/1b1e6e9d869acd704056d0a4223071a511c619e6/asm-tree-5.0.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.1/1b1e6e9d869acd704056d0a4223071a511c619e6/asm-tree-5.0.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-tree-5.0.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.1/78ebb2694324283f3120aa3ed52465b22fab8a4a/asm-tree-5.0.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b05/fdaef52d078f8fb283cf64723d51e3ff827ec444/asm-all-repackaged-2.5.0-b05.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b05/fdaef52d078f8fb283cf64723d51e3ff827ec444/asm-all-repackaged-2.5.0-b05.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b05/9e7b94061d819d62b5cba92a261e009d323deb53/asm-all-repackaged-2.5.0-b05-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b05/9e7b94061d819d62b5cba92a261e009d323deb53/asm-all-repackaged-2.5.0-b05-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.3.RELEASE/6e9f1dbd3f68299c0183630ef07ca430de160050/spring-boot-starter-test-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.3.RELEASE/6e9f1dbd3f68299c0183630ef07ca430de160050/spring-boot-starter-test-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.3.RELEASE/ce4154c36ae46f435efa15ec3f87d360324bbe91/spring-boot-starter-test-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.4.3.RELEASE/ce4154c36ae46f435efa15ec3f87d360324bbe91/spring-boot-starter-test-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.3.RELEASE/2d76638f0f13b33859bf3b927c232ff0f8a4ffbf/spring-boot-test-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.3.RELEASE/2d76638f0f13b33859bf3b927c232ff0f8a4ffbf/spring-boot-test-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.3.RELEASE/2862b9af7c8314e6ade16265cd26467b512c3b1e/spring-boot-test-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/1.4.3.RELEASE/2862b9af7c8314e6ade16265cd26467b512c3b1e/spring-boot-test-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.3.RELEASE/1a7587605e981a58104a501ab1896e2eb7a76686/spring-boot-test-autoconfigure-1.4.3.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.3.RELEASE/1a7587605e981a58104a501ab1896e2eb7a76686/spring-boot-test-autoconfigure-1.4.3.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.3.RELEASE/9813de136e20b768b6821be6c13be1de8fe15c1a/spring-boot-test-autoconfigure-1.4.3.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/1.4.3.RELEASE/9813de136e20b768b6821be6c13be1de8fe15c1a/spring-boot-test-autoconfigure-1.4.3.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/546dfa7cadacf40752c42bfd12af3b7a935920af/json-path-2.2.0-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/546dfa7cadacf40752c42bfd12af3b7a935920af/json-path-2.2.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.5.0/fcd21db4c5f33e5dcac69bf1816415fe0647582f/assertj-core-2.5.0.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.5.0/fcd21db4c5f33e5dcac69bf1816415fe0647582f/assertj-core-2.5.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.5.0/2083e85c9ee939e06d616bf4ab238ec24f2c828/assertj-core-2.5.0-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.5.0/2083e85c9ee939e06d616bf4ab238ec24f2c828/assertj-core-2.5.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/d5c250eb122496866de36dc84f98e2945845ecdd/jsonassert-1.3.0.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/d5c250eb122496866de36dc84f98e2945845ecdd/jsonassert-1.3.0.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/aa6d987417de4f968f2deac4254fa341986bb25d/jsonassert-1.3.0-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.3.0/aa6d987417de4f968f2deac4254fa341986bb25d/jsonassert-1.3.0-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.5.RELEASE/a1965127e07b469d8e5bb3d2b0ff850423b66be4/spring-test-4.3.5.RELEASE.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.5.RELEASE/a1965127e07b469d8e5bb3d2b0ff850423b66be4/spring-test-4.3.5.RELEASE.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.5.RELEASE/401c5d0075012c5eb2084488f62d618fc2aa2bc0/spring-test-4.3.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.5.RELEASE/401c5d0075012c5eb2084488f62d618fc2aa2bc0/spring-test-4.3.5.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/fe70f8807c06ef9dd27b695830149c118010308f/json-smart-2.2.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/fe70f8807c06ef9dd27b695830149c118010308f/json-smart-2.2.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/d1ffca6e2482b002702c6a576166fd685e3370e3/json-20140107.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/f53f91bc9c21fef71745450dea5200e423e38370/json-20140107-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.json/json/20140107/f53f91bc9c21fef71745450dea5200e423e38370/json-20140107-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/b5c478091ad2bfd497758094b00936543393415b/accessors-smart-1.1-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/b5c478091ad2bfd497758094b00936543393415b/accessors-smart-1.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///home/osboxes/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
