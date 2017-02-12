@@ -61,7 +61,7 @@ public class MortgageService {
         }
                 
         account = MortgageAccount.newInstance(memberId);
-        account.setPointcoinAddress(pointcoinWalletClient.getMemberMortgageAccountAddress(memberId));
+        account.setPointcoinAddress(pointcoinWalletClient.generateMemberMortgageAccountAddress(memberId));
         account.setAlias(pointcoinWalletClient.getAlias());
         account.setRecieved(pointcoinWalletClient.getRecievedByAddress(account.getPointcoinAddress()));
         

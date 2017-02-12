@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 
-@Profile({"development", "!production"})
+@Profile({"development"})
 @Configuration
 public class H2ConsoleConfiguration {
     private static final Logger LOG = LoggerFactory.getLogger(H2ConsoleConfiguration.class);

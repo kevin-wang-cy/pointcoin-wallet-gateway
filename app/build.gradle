@@ -37,15 +37,18 @@ dependencies {
 
 }
 
-task deployAssemble(type: Copy, dependsOn: assemble) {
+task buildDeploy(type: Copy, dependsOn: assemble) {
     from jar
-    from "src/main/deploy/tools"
-    from "src/main/deploy/encryptor.sh"
-    from "src/main/deploy/README"
-    from "src/main/deploy/notification.cmd"
-    from "src/main/deploy/notification.sh"
-    from "src/main/deploy/app.conf"
+    from "src/main/deploy"
     rename "${project.name}.(.*).jar", "${rootProject.name}.jar"
     rename "app.conf", "${rootProject.name}.conf"
     into "build/deploy/"
+
+    into ("libs") {
+        from configurations.runtime
+        include { details ->
+            details.file.name.startsWith("jasypt") && !details.file.name.contains("spring")
+        }
+        rename '(.+)-(.+).jar', '$1.jar'
+    }
 }

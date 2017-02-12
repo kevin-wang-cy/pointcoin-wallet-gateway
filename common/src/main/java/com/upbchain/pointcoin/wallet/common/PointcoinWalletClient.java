@@ -78,7 +78,7 @@ public class PointcoinWalletClient {
         return this.alias;
     }
     
-    public String getMemberMortgageAccountAddress(@NotNull String memberId) throws PointcoinWalletRPCException, InvalidPointcoinWalletMortgageMemberException {
+    public String generateMemberMortgageAccountAddress(@NotNull String memberId) throws PointcoinWalletRPCException, InvalidPointcoinWalletMortgageMemberException {
         Optional<String> accountName = PointcoinWalletUtil.buildMortgageDepositAccountName(memberId);
 
         if (!accountName.isPresent()) {
