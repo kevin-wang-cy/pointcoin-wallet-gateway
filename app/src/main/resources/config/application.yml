@@ -29,7 +29,7 @@ pointcoin:
         rpc-password: 123456      
        
     api:
-        allowip: 127.0.0.1    
+        allowip: 127.0.0.1;10.0.0.0/8
        
 endpoints:
     health:
@@ -99,7 +99,7 @@ pointcoin:
     wallet:
         alias: ${POINTCOIN_WALLET_RPC_ALIAS:default}  
         rpc-url: ${POINTCOIN_WALLET_RPC_URL:http://127.0.0.1:8332}
-        rpc-user: ${POINTCOIN_WALLET_RPC_USER:}
+        rpc-user: ${POINTCOIN_WALLET_RPC_USER:pointcoinrpc}
         rpc-password: ${POINTCOIN_WALLET_RPC_PASS:}    
 
     api:

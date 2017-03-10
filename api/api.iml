@@ -10,7 +10,15 @@
       <excludeFolder url="file://$MODULE_DIR$/build"/>
     </content>
     <orderEntry type="sourceFolder" forTests="false"/>
-    <orderEntry type="module" module-name="common"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.upbchain.pointcoin/pointcoin-wallet-common/1.0-SNAPSHOT/9081222ebd2fad84eedfef13debebc045692f0b3/pointcoin-wallet-common-1.0-SNAPSHOT.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>

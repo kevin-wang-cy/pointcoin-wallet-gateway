@@ -11,7 +11,7 @@ bootRepackage {
 }
 
 dependencies {
-    compile project(":common")
+    compile("com.upbchain.pointcoin:pointcoin-wallet-common:${pointcoinwalletcommonVersion}")
 
     compile("org.springframework.boot:spring-boot-starter-jersey") {
         exclude module: "spring-boot-starter-tomcat"

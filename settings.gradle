@@ -1,5 +1,4 @@
 rootProject.name='pointcoin-wallet-gateway'
-include 'common'
 include 'api'
 include 'app'
 

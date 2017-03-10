@@ -51,7 +51,6 @@
       <module filepath="$PROJECT_DIR$/pointcoin-wallet-gateway.iml" fileurl="file://$PROJECT_DIR$/pointcoin-wallet-gateway.iml"/>
       <module filepath="$PROJECT_DIR$/api/api.iml" fileurl="file://$PROJECT_DIR$/api/api.iml"/>
       <module filepath="$PROJECT_DIR$/app/app.iml" fileurl="file://$PROJECT_DIR$/app/app.iml"/>
-      <module filepath="$PROJECT_DIR$/common/common.iml" fileurl="file://$PROJECT_DIR$/common/common.iml"/>
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-type="JavaSDK" assert-jdk-15="true" project-jdk-name="1.8">

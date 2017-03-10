@@ -25,6 +25,20 @@ import com.upbchain.pointcoin.wallet.api.domain.MortgageDepositRecord;
 import com.upbchain.pointcoin.wallet.api.domain.MortgageDepositRecordId;
 import com.upbchain.pointcoin.wallet.api.service.HelloService;
 
+// TODO1: List all received transactions by member's mortage address'
+// TODO2: multisigature (Gate Wallet + Management Wallet <management addresss>) ---> 2 of 2 signed mortgate address
+
+// TODO3: api for validate xpp address, this is used where member update it's recieve address (address, signed message)
+
+// TODO4: tx out
+// ---- Gate Wate pull transfer requests from Member System and generate the first layer signed tx.  (need keep the UTOX in unapporved tx to prevent double spend)
+// --- Check Wallet for tx confirmation (0 - 1 DONE)
+// ----04-1 Member System send request to Gate Wallet ([requestUUID, memberId, received address (verifed), count in xpp]) <-
+//      -- if OK, return (requestUUID, txid) in form of first layer, a.k. Gate Way, singed transaction in form of string. State: in progress
+// ----04--2, tx progress checker api ()
+// ----04-3 Wallet-Backend (Large)
+//
+
 @Component
 @Path("/echo")
 public class HelloResource {
