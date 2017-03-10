@@ -49,11 +49,14 @@ allprojects {
 description = 'Pointcoin Wallet Gateway'
 
 subprojects {
+    archivesBaseName = "${rootProject.name}-${project.name}"
+
     ext {
         jasyptBootVersion = '1.10'
 
         mysqlConnectorVersion = "5.1.40"
         druidVersion = "1.0.27"
+
         pointcoinwalletcommonVersion = "1.0-SNAPSHOT"
     }
 
