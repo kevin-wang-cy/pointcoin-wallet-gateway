@@ -102,7 +102,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.upbchain.pointcoin/pointcoin-wallet-common/1.0-SNAPSHOT/9081222ebd2fad84eedfef13debebc045692f0b3/pointcoin-wallet-common-1.0-SNAPSHOT.jar!/"/>
+          <root url="jar:///home/kwang/.gradle/caches/modules-2/files-2.1/com.upbchain.pointcoin/pointcoin-wallet-common-client/1.0-SNAPSHOT/f1f5cf06be1fd064178eb0930fd5f0c723c4611b/pointcoin-wallet-common-client-1.0-SNAPSHOT.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES/>
