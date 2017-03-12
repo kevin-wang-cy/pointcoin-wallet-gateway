@@ -1,6 +1,6 @@
 spring:
     profiles.active: development
- 
+
 ################################  
 # development profile section  #
 ################################
@@ -18,7 +18,7 @@ spring:
     jpa:
         show-sql: true
         hibernate:
-            ddl-auto: create-drop
+            ddl-auto: update
         generate-ddl: true
 
 pointcoin:
@@ -27,24 +27,61 @@ pointcoin:
         rpc-url: http://10.30.158.23:9332
         rpc-user: admin
         rpc-password: 123456      
-       
-    api:
-        allowip: 127.0.0.1;10.0.0.0/8
-       
+
+    security:
+        allowip: 127.0.0.1;10.0.0.0/8;192.0.0.0/8
+        users:
+          -
+            name: admin
+            password: 123456
+            role:   ADMIN
+
 endpoints:
     health:
         sensitive: false
         enabled: true
     actuator:
         enabled: true
-        
-security:
-    user:
-        name: admin
-        password: 123456
-        role:   ADMIN
 
- 
+
+###############################
+# test profile section  #
+###############################
+
+---
+spring:
+    profiles: test
+
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://${MYSQL_PORT_3306_TCP_ADDR:127.0.0.1}:${MYSQL_PORT_3306_TCP_PORT:3306}/${MYSQL_ENV_MYSQL_DATABASE:pointcoindb}?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        username: ${MYSQL_ENV_MYSQL_USER:pointcoinapiremote}
+        password: ${MYSQL_ENV_MYSQL_PASSWORD:Rdisfun4pointcoinapiremote}
+
+        #连接池的配置信息
+        initial-size: 5
+        min-idle: 5
+        max-active: 20
+        max-wait: 60000
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        validation-query: SELECT 1 FROM DUAL
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+        filters: stat,wall,log4j
+        connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        generate-ddl: true
+
+
 ###############################     
 # production profile section  #
 ###############################
@@ -56,9 +93,9 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://${POINTCOIN_API_DB_HOST:127.0.0.1}:${POINTCOIN_API_DB_PORT:3306}/${POINTCOIN_API_DB_NAME:pointcoindb}?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
-        username: ${POINTCOIN_API_DB_USER:pointcoinapiremote}
-        password: ${POINTCOIN_API_DB_PASS:}
+        url: jdbc:mysql://${MYSQL_PORT_3306_TCP_ADDR:127.0.0.1}:${MYSQL_PORT_3306_TCP_PORT:3306}/${MYSQL_ENV_MYSQL_DATABASE:pointcoindb}?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        username: ${MYSQL_ENV_MYSQL_USER:pointcoinapiremote}
+        password: ${MYSQL_ENV_MYSQL_PASSWORD:Rdisfun4pointcoinapiremote}
         
         #连接池的配置信息
         initial-size: 5
@@ -94,22 +131,37 @@ logging:
 jasypt:
     encryptor:
         password: ${JASYPT_ENCRYPTOR_PASSWORD:}
-            
+
 pointcoin:
     wallet:
         alias: ${POINTCOIN_WALLET_RPC_ALIAS:default}  
-        rpc-url: ${POINTCOIN_WALLET_RPC_URL:http://127.0.0.1:8332}
+        rpc-url: ${POINTCOIN_WALLET_RPC_URL:http://127.0.0.1:22888}
         rpc-user: ${POINTCOIN_WALLET_RPC_USER:pointcoinrpc}
-        rpc-password: ${POINTCOIN_WALLET_RPC_PASS:}    
+        rpc-password: ${POINTCOIN_WALLET_RPC_PASSWORD:123456}
 
-    api:
-        allowip: ${POINTCOIN_API_ALLOWIP:127.0.0.1}            
+
 
     task:
         deposit-record-push:
-            cron: ${POINTCOIN_TASK_PUSH_CRON:0 0/15 * 1/1 * ?}
+            cron: ${POINTCOIN_TASK_PUSH_CRON:0 0/5 * 1/1 * ?}
             url: ${POINTCOIN_TASK_PUSH_URL:http://127.0.0.1:8080/api/echo}
-            
+            username: ${POINTCOIN_TASK_PUSH_USER:}
+            password: ${POINTCOIN_TASK_PUSH_PASSWORD:}
+
+    security:
+        allowip: ${POINTCOIN_SECURITY_ALLOWIP:127.0.0.1}
+        users:
+            -
+                name: user
+                password: ${POINTCOIN_SECURITY_USER_PASSWORD:}
+                roles:
+                    - USER
+            -
+                name: admin
+                password: ${POINTCOIN_SECURITY_ADMIN_PASSWORD:}
+                roles:
+                    - USER
+                    - ADMIN
 spring:
     jpa:
         hibernate:

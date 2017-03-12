@@ -37,7 +37,7 @@ import com.upbchain.pointcoin.wallet.common.InvalidPointcoinWalletMortgageMember
 import com.upbchain.pointcoin.wallet.common.PointcoinTransaction;
 import com.upbchain.pointcoin.wallet.common.PointcoinWalletRPCException;
 
-@Path("/mortgageaccounts")
+@Path("/{parameter: mortgageaccounts|mortgagewallets}")
 public class MortgageAccountResource {
     private static final Logger LOG = LoggerFactory.getLogger(MortgageAccountResource.class);
     

@@ -44,13 +44,17 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.httpBasic().and().authorizeRequests()
-            .antMatchers(HttpMethod.POST, "/api/mortgageaccounts").hasRole("ADMIN")
-            .anyRequest().permitAll()
+                .antMatchers("/api/echo/**").permitAll()
+                .antMatchers("/api/mortgagewallets/**", "/api/paymentwallets/**").hasIpAddress("127.0.0.1")
+                .antMatchers("/api/mortgageaccounts/**").hasRole("USER")
+                .antMatchers("/api/paymentaccounts/**").hasRole("ADMIN")
+                .anyRequest().fullyAuthenticated()
             .and().csrf().disable();
 
         // add this line to use H2 web console
         http.headers().frameOptions().disable();
 
-        LOG.info("/api/mortgageaccounts needs ADMIN role user to access.");
+        LOG.info("/api/mortgageaccounts/** needs USER role user to access.");
+        LOG.info("/api/paymentaccounts/** needs ADMIN role user to access.");
     }
 }

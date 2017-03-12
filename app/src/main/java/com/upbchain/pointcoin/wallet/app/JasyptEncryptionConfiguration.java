@@ -20,7 +20,7 @@ import com.ulisesbocchio.jasyptspringboot.EncryptablePropertyResolver;
  *
  */
 
-@Profile({ "production", "default" })
+@Profile({ "production", "test" })
 @Configuration
 public class JasyptEncryptionConfiguration {
     private final static Logger LOG = LoggerFactory.getLogger(JasyptEncryptionConfiguration.class);

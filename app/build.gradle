@@ -36,8 +36,8 @@ dependencies {
 task buildDeploy(type: Copy, dependsOn: assemble) {
     from jar
     from "src/main/deploy"
-    rename "${project.name}.(.*).jar", "${rootProject.name}.jar"
-    rename "app.conf", "${rootProject.name}.conf"
+    rename "${project.archivesBaseName}.(.*).jar", "pointcoin-wallet-api.jar"
+    rename "pointcoin-wallet-api.conf", "pointcoin-wallet-api.conf"
     into "build/deploy/"
 
     into ("libs") {

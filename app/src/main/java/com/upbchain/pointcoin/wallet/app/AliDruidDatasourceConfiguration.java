@@ -25,7 +25,7 @@ import com.alibaba.druid.support.http.WebStatFilter;
  */
 
 
-@Profile({"production", "default"})
+@Profile({"production", "test"})
 @Configuration
 public class AliDruidDatasourceConfiguration {
     private final static Logger LOG = LoggerFactory.getLogger(AliDruidDatasourceConfiguration.class);

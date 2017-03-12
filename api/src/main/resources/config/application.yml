@@ -25,7 +25,7 @@ pointcoin:
         rpc-password: 123456         
     task:
         deposit-record-push:
-            cron: 0 0/15 * 1/1 * ?
+            cron: "0/5 * * 1/1 * ?"
        
 endpoints:
     health:
@@ -34,20 +34,10 @@ endpoints:
     actuator:
         enabled: true
 
-# production profile section
----
-spring:
-    profiles: production
-    
-pointcoin:
-    wallet:
-        alias: default
-        rpc-url: http://127.0.0.1:8332
+logging:
+    level:
+        com.upbchain: DEBUG
 
-# default profile section
----
-spring:
-    jpa:
-        show-sql: true
+
 
  
