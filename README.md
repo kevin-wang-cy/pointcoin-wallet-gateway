@@ -16,7 +16,7 @@
 3. Commit to that branch locally and regularly push your work to the same named branch on the server
 4. When you need feedback or help, or you think the branch is ready for merging, open a pull request
 5. After someone else has reviewed and signed off on the feature, you can merge it into master
-5. Once it is merged and pushed to ¡®master¡¯, you can and should deploy immediately
+6. Once it is merged and pushed to ¡®master¡¯, you can and should deploy immediately
 
 ## Quick Commands
 
@@ -26,7 +26,7 @@ git checkout -b dev/feature-1 origin/master
 git push -u origin dev/feature-1
 ```
 2. download others change and merge into local
-'''
+```
 git checkout dev/feature-1
 git pull
 ```
