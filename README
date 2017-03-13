@@ -1,0 +1,6 @@
+
+GIT CONFIGURATION
+----------------
+  git config --global branch.autosetuprebase always
+  git config --global branch.master.rebase true
+  git config --global push.default simple
