@@ -20,33 +20,33 @@
 
 ## Quick Commands
 
-### create branch off of master
+### 1. create branch off of master
 ```
 git checkout -b dev/feature-1 origin/master
 git push -u origin dev/feature-1
 ```
-### download others change and merge into local
+### 2. download others change and merge into local
 ```
 git checkout dev/feature-1
 git pull
 ```
-### commit local change and push change from local to server
+### 3. commit local change and push change from local to server
 ```
 git add .
 git commit -m '#ticket number with descriptive statement'
 git push
 ```
-### merge master into feature branch and solve conflict before create pull request
+### 4. merge master into feature branch and solve conflict before create pull request
 ```
 git fetch origin
 git merge origin/master
 git commit -m '#ticket-number solve conflicts before merge'
 git push
 ```
-### create pull request as suggested [here](https://help.github.com/articles/creating-a-pull-request/)
-### merge pull request as suggested [here](https://help.github.com/articles/merging-a-pull-request/)
+### 5. create pull request as suggested [here](https://help.github.com/articles/creating-a-pull-request/)
+### 6. merge pull request as suggested [here](https://help.github.com/articles/merging-a-pull-request/)
 
-## Reference
+# Reference
 
 1. Please check github recommend [git flow](https://help.github.com/articles/github-flow/)
 2. [Here](http://scottchacon.com/2011/08/31/github-flow.html) is another reference
