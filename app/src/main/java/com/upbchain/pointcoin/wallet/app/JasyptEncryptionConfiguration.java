@@ -1,5 +1,6 @@
 package com.upbchain.pointcoin.wallet.app;
 
+import com.ulisesbocchio.jasyptspringboot.resolver.DefaultPropertyResolver;
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;
 import org.jasypt.encryption.pbe.config.SimpleStringPBEConfig;
@@ -30,7 +31,7 @@ public class JasyptEncryptionConfiguration {
         PooledPBEStringEncryptor encryptor = new PooledPBEStringEncryptor();
         
         SimpleStringPBEConfig config = new SimpleStringPBEConfig();
-        config.setPasswordCharArray(password.toCharArray());
+        config.setPasswordCharArray((new StringBuffer()).append("POINTCOIN[").append(password).append("]").toString().toCharArray());
         config.setAlgorithm("PBEWithMD5AndDES");
         config.setKeyObtentionIterations("1000");
         config.setPoolSize("1");
@@ -48,21 +49,19 @@ public class JasyptEncryptionConfiguration {
         return new JasyptEncryptablePropertyResolver(stringEncryptor);
     }
     
-    private class JasyptEncryptablePropertyResolver implements EncryptablePropertyResolver {
+    private class JasyptEncryptablePropertyResolver extends DefaultPropertyResolver implements EncryptablePropertyResolver {
 
         private final StringEncryptor encryptor;
 
         public JasyptEncryptablePropertyResolver(StringEncryptor encryptor) {
+            super(encryptor);
+
             this.encryptor = encryptor;
         }
 
         @Override
         public String resolvePropertyValue(String value) {
-            if (value != null && value.startsWith("{cipher}")) {
-                return encryptor.decrypt(value.substring("{cipher}".length()));
-            }
-            
-            return value;
+            return super.resolvePropertyValue(value);
         }
     }
 

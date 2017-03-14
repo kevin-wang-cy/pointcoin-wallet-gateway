@@ -3,28 +3,104 @@
 # By default the wallet itself is not secured, you can secured it through encryptwallet rpc command.
 # And the rpc listens on 22888 and only grants access to pointcoinrpc with a password of 123456.
 # Wallet data is kept under /wallet/$WALLET_ALIAS by default, it's recommanded to mount to /wallet from
-# a data volue which contains all wallets' data.
+# a data volume which contains all wallets' data.
+#
 # Usage:
-# docker run --name wallet-default -p 8332:22888 -e WALLET_CONF_OPTS="-rpcallowip=192.168.0.2 -rpcallowip=192.168.0.7" kevinwangcy/upchain:pointcoin-wallet-pointcoind
+#
+# docker run -d -p 3306:3306 \
+#       --name pointcoindb-mysql \
+#       -e MYSQL_ROOT_PASSWORD=Rdisfun4Root \
+#       -e MYSQL_DATABASE=pointcoindb \
+#       -e MYSQL_USER=pointcoinapiremote \
+#       -e MYSQL_PASSWORD=Rdisfun4pointcoinapiremote \
+#       mysql:latest
+#
+# docker run --name wallet-default -p 8080:8080 -p 22888:22888
+#       -e WALLET_ALIAS=default \
+#       -v ~/wallet:/wallet \
+#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#
 # docker volume create wallet-data-volume
-# docker run --name wallet-default -p 8332:22888 -e WALLET_ALIAS=default -v wallet-data-volume:/wallet kevinwangcy/upchain:pointcoin-wallet-pointcoind
-# docker run --name wallet-default -p 8332:22888 -e WALLET_ALIAS=default -v ~/wallet:/wallet kevinwangcy/upchain:pointcoin-wallet-pointcoind
-
+#
+# docker run --name wallet-default -p 8080:8080 \
+#       -e WALLET_ALIAS=default \
+#       -v wallet-data-volume:/wallet \
+#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#
+# docker run --name wallet-default --link pointcoindb-mysql:mysql -p 8080:8080
+#       -e POINTCOIN_SECURITY_ALLOWIP="10.0.0.0/8" \
+#       -e WALLET_ALIAS=default \
+#       -v wallet-data-volume:/wallet \
+#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#
+# docker run --rm kevinwangcy/upchain:pointcoin-wallet-api-latest \
+#       encrypt pasword="<jasypt password>" input="<your password>"
+#
+# docker run --name wallet-default -p 8080:8080 \
+#       -e JASYPT_ENCRYPTOR_PASSWORD="<jasypt password>"  \
+#
+#       -e POINTCOIN_MQSQL_HOST="<mysql db ipaddress>" "\
+#       -e POINTCOIN_MQSQL_PORT=<mysql port> \
+#       -e POINTCOIN_MQSQL_DATABASE=<pointcoindb> \
+#       -e POINTCOIN_MQSQL_USER=<pointcoinapiremote> \
+#       -e POINTCOIN_MQSQL_PASSWORD=ENC(jasypt encrypted password)  \
+#
+#       -e POINTCOIN_SECURITY_ALLOWIP="<member system ip;wallet-frontend ip>" \
+#
+#       -e POINTCOIN_TASK_DR_PUSH_USER=<member system service account> \
+#       -e POINTCOIN_TASK_DR_PUSH_PASSWORD=ENC(jasypt encrytped password) \
+#
+#       -e POINTCOIN_SECURITY_USER_PASSWORD=ENC(jasypt encrytped password for user) \
+#       -e POINTCOIN_SECURITY_ADMIN_PASSWORD=ENC(jasypt encrytped password for admin) \
+#
+#       -e WALLET_ALIAS=default \
+#       -v wallet-data-volume:/wallet \
+#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#
 FROM kevinwangcy/upchain:pointcoin-wallet-pointcoind-latest
 MAINTAINER Kevin C.Y. Wang <kevin.wang.cy@gmail.com>
+
+# Jasypt Password Settings
+ENV JASYPT_ENCRYPTOR_PASSWORD=25164dbe226e1d26c109b64c7e6d14e8
+
+# Member System EndPoints Settings
+ENV POINTCOIN_TASK_DR_PUSH_URL=http://127.0.0.1:8080/api/echo
+ENV POINTCOIN_TASK_DR_PUSH_CRON="0 0/5 * 1/1 * ?"
+ENV POINTCOIN_TASK_DR_PUSH_USER=
+ENV POINTCOIN_TASK_DR_PUSH_PASSWORD=
+
+# Pointcoin Security Settings
+ENV POINTCOIN_SECURITY_ALLOWIP=127.0.0.1
+ENV POINTCOIN_SECURITY_USER_PASSWORD=ENC(kYCyrt/wFOl6iypL4PS6Hg==)
+ENV POINTCOIN_SECURITY_ADMIN_PASSWORD=ENC(9wsc+eE6tDhmvBpBvSwaSg==)
+
+# Install Jasypt Tools
+ARG JASYPT_NAME=jasypt-1.9.2
+ARG JASYPT_FILE=jasypt-1.9.2.tar.gz
+ARG JASYPT_URL=https://raw.githubusercontent.com/kevin-wang-cy/pointcoin-resource/master/jasypt/$JASYPT_FILE
+
+RUN curl -L -o /tmp/$JASYPT_FILE $JASYPT_URL && \
+    tar -C /tmp -zxvf /tmp/$JASYPT_FILE && \
+    chmod -R 700 /tmp/$JASYPT_NAME/bin && \
+    mkdir -p /opt/pointcoin &&\
+    cp -R /tmp/$JASYPT_NAME /opt/pointcoin && \
+    ln -s /opt/pointcoin/$JASYPT_NAME /opt/pointcoin/jasypt && \
+    rm -rf /tmp/* /var/tmp/*
 
 # Install pointcoin-wallet-api
 ADD . /tmp/docker_build
 RUN chmod +x /tmp/docker_build/prepare.sh && \
     chmod +x /tmp/docker_build/pointcoin-wallet-api.jar && \
     chmod +x /tmp/docker_build/pointcoin-wallet-api.runit.sh && \
-    chmod +x /tmp/docker_build/encryptor.sh && \
+    chmod -R 700 /tmp/docker_build/jasypt && \
+    cp -R /tmp/docker_build/jasypt/** /opt/pointcoin/jasypt && \
+    ln -s /opt/pointcoin/jasypt/encrypt.sh /usr/bin/encrypt && \
+    ln -s /opt/pointcoin/jasypt/decrypt.sh /usr/bin/decrypt && \
+    ln -s /opt/pointcoin/jasypt/digest.sh /usr/bin/digest && \
     sh /tmp/docker_build/prepare.sh && \
     mkdir -p /opt/pointcoin/wallet-api && \
     cp /tmp/docker_build/pointcoin-wallet-api.jar /opt/pointcoin/wallet-api/pointcoin-wallet-api.jar && \
     cp /tmp/docker_build/pointcoin-wallet-api.conf /opt/pointcoin/wallet-api/pointcoin-wallet-api.conf && \
-    cp /tmp/docker_build/encryptor.sh /opt/pointcoin/wallet-api/encryptor.sh && \
-    cp -R /tmp/docker_build/libs /opt/pointcoin/wallet-api && \
     ls -alF /opt/pointcoin/wallet-api/ && \
     mkdir /etc/service/pointcoin-wallet-api && \
     cp /tmp/docker_build/pointcoin-wallet-api.runit.sh /etc/service/pointcoin-wallet-api/run && \

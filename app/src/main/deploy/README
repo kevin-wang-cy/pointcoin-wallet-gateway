@@ -1,58 +1,90 @@
 
-export JASYPT_ENCRYPTOR_PASSWORD=25164dbe226e1d26c109b64c7e6d14e8
+export JASYPT_ENCRYPTOR_PASSWORD=
 
+export POINTCOIN_MQSQL_HOST=127.0.0.1
+export POINTCOIN_MQSQL_PORT=3306
+export POINTCOIN_MQSQL_DATABASE=pointcoindb
+export POINTCOIN_MQSQL_USER=pointcoinapiremote
+export POINTCOIN_MQSQL_PASSWORD=Rdisfun4pointcoinapiremote
 
-export MYSQL_PORT_3306_TCP_ADDR=127.0.0.1
-export MYSQL_PORT_3306_TCP_PORT=3306
-export MYSQL_ENV_MYSQL_DATABASE=pointcoindb
-export MYSQL_ENV_MYSQL_USER=pointcoinapiremote
-export MYSQL_ENV_MYSQL_PASSWORD=Rdisfun4pointcoinapiremote
+export POINTCOIN_TASK_DR_PUSH_URL=http://127.0.0.1:8080/api/echo
+export POINTCOIN_TASK_DR_PUSH_CRON=0 0/5 * 1/1 * ?
+export POINTCOIN_TASK_DR_PUSH_USER=
+export POINTCOIN_TASK_DR_PUSH_PASSWORD=
+
+export POINTCOIN_SECURITY_ALLOWIP=127.0.0.1
+export POINTCOIN_SECURITY_USER_PASSWORD=123456
+export POINTCOIN_SECURITY_ADMIN_PASSWORD=123456
+
 
 export POINTCOIN_WALLET_RPC_ALIAS=default
 export POINTCOIN_WALLET_RPC_URL=http://127.0.0.1:22888
 export POINTCOIN_WALLET_RPC_USER=pointcoinrpc
 export POINTCOIN_WALLET_RPC_PASSWORD=123456
 
-export POINTCOIN_TASK_PUSH_URL=http://127.0.0.1:8080/api/echo
-export POINTCOIN_TASK_PUSH_CRON=0 0/15 * 1/1 * ?
-export POINTCOIN_TASK_PUSH_USER=
-export POINTCOIN_TASK_PUSH_PASSWORD=
 
-export POINTCOIN_SECURITY_ALLOWIP=127.0.0.1
-export POINTCOIN_SECURITY_USER_PASSWORD=
-export POINTCOIN_SECURITY_ADMIN_PASSWORD=
+================================================================================
 
-#####
 ----ARGUMENTS-------------------
+
 algorithm: PBEWithMD5AndDES
 input: 123456
-password: 25164dbe226e1d26c109b64c7e6d14e8
+password: POINTCOIN[25164dbe226e1d26c109b64c7e6d14e8]
+stringOutputType: base64
+
+
 
 ----OUTPUT----------------------
 
-MXmwCObi6rstaeOVvr/uog==
+kYCyrt/wFOl6iypL4PS6Hg==
+i4wex2Q1j4t7VwColYQ0UA==
+9wsc+eE6tDhmvBpBvSwaSg==
+sUNtb2hQzQYmSb1xZYzE7Q==
 
 ----ARGUMENTS-------------------
 
 algorithm: PBEWithMD5AndDES
-input: admin@123456
-password: 25164dbe226e1d26c109b64c7e6d14e8
+input: Rdisfun4pointcoinapiremote
+password: POINTCOIN[25164dbe226e1d26c109b64c7e6d14e8]
+stringOutputType: base64
 
 
 
 ----OUTPUT----------------------
 
-qewZfM7sVgFV+Eco5OLN50cqlbT/GSdL
+svhwwJDMZYFCEHLvnGrsBTGqAnOzC6731CPDub2TjVmodRuhUWwB3g==
+1ppvSeL2IFE2ejfsE8ODXtxDbkZBsUdHX6ZYH1+cOQxMYGc9OnIzYw==
+PFwonRQ8VD95Y9J+OLINrisRrukeTYDucg8n1dE1zw/0oGmU/pkJug==
+
+
+
+===========================================================
+----ARGUMENTS-------------------
+
+algorithm: PBEWithMD5AndDES
+input: Rdisfun4pointcoinapiremote
+password: POINTCOIN[YOU NEVER KNOW THIS]
+stringOutputType: base64
+
+
+
+----OUTPUT----------------------
+
+ya0beJ69KpTZTmotEwxeJzOOJChzdmouT0l1jR2SE/pKc+OSzt5iYA==
+EH8ziZ+4Vk3JVeSzpRKiRlZ3BKQK9WJUCFdNKuP4Ek9AlEzoWXVzvg==
 
 ----ARGUMENTS-------------------
 
 algorithm: PBEWithMD5AndDES
-input: kevin@123456
-password: 25164dbe226e1d26c109b64c7e6d14e8
+input: 123456
+password: POINTCOIN[YOU NEVER KNOW THIS]
+stringOutputType: base64
 
 
 
 ----OUTPUT----------------------
 
-bR0/bwE8ZzLHnLdDuxIHSVvnsNYhFyVu
-
+j+aIaJ9m7GN+oD69DC4UzQ==
+rK99ULmGDVxGgbuo3jax8Q==
+fqzAtZleI8a3aitt/mT0TQ==
+XkkhILcW9w31WxWXC2C8Xg==

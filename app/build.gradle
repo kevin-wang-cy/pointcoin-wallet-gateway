@@ -39,12 +39,4 @@ task buildDeploy(type: Copy, dependsOn: assemble) {
     rename "${project.archivesBaseName}.(.*).jar", "pointcoin-wallet-api.jar"
     rename "pointcoin-wallet-api.conf", "pointcoin-wallet-api.conf"
     into "build/deploy/"
-
-    into ("libs") {
-        from configurations.runtime
-        include { details ->
-            details.file.name.startsWith("jasypt") && !details.file.name.contains("spring")
-        }
-        rename '(.+)-(.+).jar', '$1.jar'
-    }
 }
