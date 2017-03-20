@@ -1,6 +1,6 @@
 package com.upbchain.pointcoin.wallet.api.domain;
 
-import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
@@ -17,9 +17,9 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 public class AbstractAuditableEntity {
 	@Version private Long version;
 	
-	@CreatedDate LocalDateTime createdDate;
+	@CreatedDate ZonedDateTime createdDate;
 	@CreatedBy String createdBy;
-	@LastModifiedDate LocalDateTime modifiedDate;
+	@LastModifiedDate ZonedDateTime modifiedDate;
 	@LastModifiedBy String modifiedBy;
 		
 	public Long getVersion() {
@@ -28,10 +28,10 @@ public class AbstractAuditableEntity {
 	public void setVersion(Long version) {
 		this.version = version;
 	}
-	public LocalDateTime getCreatedDate() {
+	public ZonedDateTime getCreatedDate() {
 		return createdDate;
 	}
-	public void setCreatedDate(LocalDateTime createdDate) {
+	public void setCreatedDate(ZonedDateTime createdDate) {
 		this.createdDate = createdDate;
 	}
 	public String getCreatedBy() {
@@ -40,10 +40,10 @@ public class AbstractAuditableEntity {
 	public void setCreatedBy(String createdBy) {
 		this.createdBy = createdBy;
 	}
-	public LocalDateTime getModifiedDate() {
+	public ZonedDateTime getModifiedDate() {
 		return modifiedDate;
 	}
-	public void setModifiedDate(LocalDateTime modifiedDate) {
+	public void setModifiedDate(ZonedDateTime modifiedDate) {
 		this.modifiedDate = modifiedDate;
 	}
 	public String getModifiedBy() {

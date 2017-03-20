@@ -1,7 +1,7 @@
 package com.upbchain.pointcoin.wallet.api.domain;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.Objects;
 
 import javax.persistence.Column;
@@ -14,14 +14,14 @@ public class MortgageDepositRecordSyncStatus implements Serializable {
 	private static final long serialVersionUID = -3573228151635269178L;
 
 	@Column
-	private LocalDateTime lastSyncAt;
+	private ZonedDateTime lastSyncAt;
 	@Column
     private Boolean syncedWithMember;
 		
 	private MortgageDepositRecordSyncStatus() {
 	}
 	
-	public static MortgageDepositRecordSyncStatus newInstance(@NotNull LocalDateTime lastSyncAt, @NotNull Boolean syncedWithMember) {
+	public static MortgageDepositRecordSyncStatus newInstance(@NotNull ZonedDateTime lastSyncAt, @NotNull Boolean syncedWithMember) {
 		MortgageDepositRecordSyncStatus ret = new MortgageDepositRecordSyncStatus();
 		
 		ret.setLastSyncAt(lastSyncAt);
@@ -48,11 +48,11 @@ public class MortgageDepositRecordSyncStatus implements Serializable {
 		return Objects.hash(this.getSyncedWithMember(), this.getLastSyncAt());
 	}
 
-    public LocalDateTime getLastSyncAt() {
+    public ZonedDateTime getLastSyncAt() {
         return lastSyncAt;
     }
 
-    public void setLastSyncAt(LocalDateTime lastSyncAt) {
+    public void setLastSyncAt(ZonedDateTime lastSyncAt) {
         this.lastSyncAt = lastSyncAt;
     }
 

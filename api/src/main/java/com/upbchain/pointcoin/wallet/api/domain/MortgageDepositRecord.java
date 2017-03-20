@@ -1,7 +1,7 @@
 package com.upbchain.pointcoin.wallet.api.domain;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -26,10 +26,10 @@ public class MortgageDepositRecord extends AbstractAuditableEntity {
     private Long confirmations;
 
     @Column(updatable = false)
-    LocalDateTime txTime;
+    ZonedDateTime txTime;
 
     @Column(updatable = false)
-    LocalDateTime txReceivedTime;
+    ZonedDateTime txReceivedTime;
 
     @Embedded
     MortgageDepositRecordSyncStatus syncStatus;
@@ -95,19 +95,19 @@ public class MortgageDepositRecord extends AbstractAuditableEntity {
         this.confirmations = confirmations;
     }
 
-    public LocalDateTime getTxTime() {
+    public ZonedDateTime getTxTime() {
         return txTime;
     }
 
-    public void setTxTime(LocalDateTime txTime) {
+    public void setTxTime(ZonedDateTime txTime) {
         this.txTime = txTime;
     }
 
-    public LocalDateTime getTxReceivedTime() {
+    public ZonedDateTime getTxReceivedTime() {
         return txReceivedTime;
     }
 
-    public void setTxReceivedTime(LocalDateTime txReceivedTime) {
+    public void setTxReceivedTime(ZonedDateTime txReceivedTime) {
         this.txReceivedTime = txReceivedTime;
     }
 

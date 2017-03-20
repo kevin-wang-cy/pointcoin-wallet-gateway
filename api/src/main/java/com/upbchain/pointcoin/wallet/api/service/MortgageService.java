@@ -5,7 +5,7 @@ import static java.util.stream.Collectors.toList;
 
 import java.math.BigDecimal;
 import java.time.Instant;
-import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -88,8 +88,8 @@ public class MortgageService {
                 ret.setAmount(it.getAmount());
                 ret.setConfirmations(it.getConfirmations());
                 ret.setCurrency(it.getCurrency());
-                ret.setTxReceivedTime(LocalDateTime.ofInstant(Instant.ofEpochSecond(it.getTimereceived()), ZoneId.systemDefault()));
-                ret.setTxTime(LocalDateTime.ofInstant(Instant.ofEpochSecond(it.getTime()), ZoneId.systemDefault()));
+                ret.setTxReceivedTime(ZonedDateTime.ofInstant(Instant.ofEpochSecond(it.getTimereceived()), ZoneId.systemDefault()));
+                ret.setTxTime(ZonedDateTime.ofInstant(Instant.ofEpochSecond(it.getTime()), ZoneId.systemDefault()));
                 
                 return ret;
             }
@@ -153,8 +153,8 @@ public class MortgageService {
                 ret.setAmount(txOutput.getValue());
                 ret.setConfirmations(pointcoinTx.getConfirmations());
                 ret.setCurrency(txOutput.getCurrency());
-                ret.setTxReceivedTime(LocalDateTime.ofInstant(Instant.ofEpochSecond(pointcoinTx.getTimereceived()), ZoneId.systemDefault()));
-                ret.setTxTime(LocalDateTime.ofInstant(Instant.ofEpochSecond(pointcoinTx.getTime()), ZoneId.systemDefault()));
+                ret.setTxReceivedTime(ZonedDateTime.ofInstant(Instant.ofEpochSecond(pointcoinTx.getTimereceived()), ZoneId.systemDefault()));
+                ret.setTxTime(ZonedDateTime.ofInstant(Instant.ofEpochSecond(pointcoinTx.getTime()), ZoneId.systemDefault()));
                 
                 return ret;
             }
@@ -279,7 +279,7 @@ public class MortgageService {
 
         records.stream().filter(it -> !it.getSyncStatus().getSyncedWithMember()).forEach(it -> {
             it.getSyncStatus().setSyncedWithMember(true);
-            it.getSyncStatus().setLastSyncAt(LocalDateTime.now());
+            it.getSyncStatus().setLastSyncAt(ZonedDateTime.now());
             mortgageDepositRecordResposity.save(it);
         });
 
