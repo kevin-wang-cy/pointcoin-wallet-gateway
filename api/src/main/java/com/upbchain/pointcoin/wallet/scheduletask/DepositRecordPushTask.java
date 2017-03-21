@@ -2,6 +2,7 @@ package com.upbchain.pointcoin.wallet.scheduletask;
 
 import java.util.*;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,8 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.client.support.BasicAuthorizationInterceptor;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -42,7 +45,10 @@ public class DepositRecordPushTask {
     private String username;
     @Value("${pointcoin.task.deposit-record-push.password:}")
     private String password;
-    
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
     @Scheduled(cron = "${pointcoin.task.deposit-record-push.cron:0 0/5 * 1/1 * ?}")
     public void execute() {
         try {
@@ -54,9 +60,8 @@ public class DepositRecordPushTask {
                 }
                 return;
             }
-            
-            
-            RestTemplate restTemplate = new RestTemplate();
+
+            RestTemplate restTemplate = createRestTemplate();
 
             if (!StringUtils.isEmpty(this.username)) {
                 restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(this.username, this.password));
@@ -109,6 +114,20 @@ public class DepositRecordPushTask {
         catch (Throwable ex) {
             LOG.warn("Push Failed:", ex);
         }
+    }
+
+    private RestTemplate createRestTemplate() {
+        RestTemplate restTemplate = new RestTemplate();
+
+        List<HttpMessageConverter<?>> messageConverters = new ArrayList<>();
+
+        MappingJackson2HttpMessageConverter jsonMessageConverter = new MappingJackson2HttpMessageConverter();
+        jsonMessageConverter.setObjectMapper(objectMapper);
+        messageConverters.add(jsonMessageConverter);
+
+        restTemplate.setMessageConverters(messageConverters);
+
+        return restTemplate;
     }
 
 }
