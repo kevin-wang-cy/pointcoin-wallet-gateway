@@ -77,29 +77,11 @@ ENV POINTCOIN_SECURITY_ALLOWIP=127.0.0.1
 ENV POINTCOIN_SECURITY_USER_PASSWORD=ENC(kYCyrt/wFOl6iypL4PS6Hg==)
 ENV POINTCOIN_SECURITY_ADMIN_PASSWORD=ENC(9wsc+eE6tDhmvBpBvSwaSg==)
 
-# Install Jasypt Tools
-ARG JASYPT_NAME=jasypt-1.9.2
-ARG JASYPT_FILE=jasypt-1.9.2.tar.gz
-ARG JASYPT_URL=https://raw.githubusercontent.com/kevin-wang-cy/pointcoin-resource/master/jasypt/$JASYPT_FILE
-
-RUN curl -L -o /tmp/$JASYPT_FILE $JASYPT_URL && \
-    tar -C /tmp -zxvf /tmp/$JASYPT_FILE && \
-    chmod -R 700 /tmp/$JASYPT_NAME/bin && \
-    mkdir -p /opt/pointcoin &&\
-    cp -R /tmp/$JASYPT_NAME /opt/pointcoin && \
-    ln -s /opt/pointcoin/$JASYPT_NAME /opt/pointcoin/jasypt && \
-    rm -rf /tmp/* /var/tmp/*
-
 # Install pointcoin-wallet-api
 ADD . /tmp/docker_build
 RUN chmod +x /tmp/docker_build/prepare.sh && \
     chmod +x /tmp/docker_build/pointcoin-wallet-api.jar && \
     chmod +x /tmp/docker_build/pointcoin-wallet-api.runit.sh && \
-    chmod -R 700 /tmp/docker_build/jasypt && \
-    cp -R /tmp/docker_build/jasypt/** /opt/pointcoin/jasypt && \
-    ln -s /opt/pointcoin/jasypt/encrypt.sh /usr/bin/encrypt && \
-    ln -s /opt/pointcoin/jasypt/decrypt.sh /usr/bin/decrypt && \
-    ln -s /opt/pointcoin/jasypt/digest.sh /usr/bin/digest && \
     sh /tmp/docker_build/prepare.sh && \
     mkdir -p /opt/pointcoin/wallet-api && \
     cp /tmp/docker_build/pointcoin-wallet-api.jar /opt/pointcoin/wallet-api/pointcoin-wallet-api.jar && \
