@@ -78,8 +78,15 @@ ENV POINTCOIN_SECURITY_USER_PASSWORD=ENC(kYCyrt/wFOl6iypL4PS6Hg==)
 ENV POINTCOIN_SECURITY_ADMIN_PASSWORD=ENC(9wsc+eE6tDhmvBpBvSwaSg==)
 
 # Install pointcoin-wallet-api
-ADD . /tmp/docker_build
-RUN chmod +x /tmp/docker_build/prepare.sh && \
+ARG WALLETAPIPKG_NEXUS=139.196.120.42
+ARG WALLETAPIPKG_VERSION=0.14
+ARG WALLETAPIPKG_FILE=pointcoin-wallet-gateway-app-pkg-$WALLETAPIPKG_VERSION.tar
+ARG WALLETAPIPKG_URL=http://$WALLETAPIPKG_NEXUS:8081/repository/maven-releases/com/upbchain/pointcoin/pointcoin-wallet-gateway-app-pkg/$WALLETAPIPKG_VERSION/$WALLETAPIPKG_FILE
+
+RUN curl -L -o /tmp/$WALLETAPIPKG_FILE $WALLETAPIPKG_URL && \
+    mkdir -p /tmp/docker_build && \
+    tar -C /tmp/docker_build -xvf /tmp/$WALLETAPIPKG_FILE && \
+    chmod +x /tmp/docker_build/prepare.sh && \
     chmod +x /tmp/docker_build/pointcoin-wallet-api.jar && \
     chmod +x /tmp/docker_build/pointcoin-wallet-api.runit.sh && \
     sh /tmp/docker_build/prepare.sh && \

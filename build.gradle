@@ -1,9 +1,8 @@
 buildscript {
     ext {
         springBootVersion = '1.4.3.RELEASE'
-
-
     }
+
     repositories {
         maven {
             url "${nexusPublicUrl}"
@@ -17,10 +16,9 @@ buildscript {
 
 allprojects {
     group = 'com.upbchain.pointcoin'
-    version = '1.0-SNAPSHOT'
+    version = project.properties.containsKey("releaseVersion") ? "${releaseVersion}" : "1.0-SNAPSHOT"
 
     apply plugin: 'idea'
-    apply plugin: 'maven'
 
     repositories {
         maven {
@@ -29,29 +27,18 @@ allprojects {
     }
     
     task wrapper(type: Wrapper) {
-        gradleVersion = '3.3'
-    }
-
-    uploadArchives {
-        repositories {
-            mavenDeployer {
-                repository(url: "${nexusReleaseUrl}") {
-                    authentication(userName: nexusUsername, password: nexusPassword)
-                }
-                snapshotRepository(url: "${nexusSnapshotUrl}") {
-                    authentication(userName: nexusUsername, password: nexusPassword)
-                }
-            }
-        }
+        gradleVersion = '3.4.1'
     }
 }
 
 description = 'Pointcoin Wallet Gateway'
 
 subprojects {
-    archivesBaseName = "${rootProject.name}-${project.name}"
-
     ext {
+        archivesBaseName = "${rootProject.name}-${project.name}"
+
+        nexusRepoUrl = project.properties.containsKey("releaseVersion") ? "${nexusReleaseUrl}" : "${nexusSnapshotUrl}"
+
         jasyptBootVersion = '1.10'
 
         mysqlConnectorVersion = "5.1.40"
@@ -61,16 +48,43 @@ subprojects {
     }
 
     apply plugin: 'java'
-    
-    apply plugin: 'eclipse'
-    
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
-    
+
+    jar {
+        baseName "${project.archivesBaseName}"
+    }
+
+    apply plugin: 'eclipse'
     eclipse {
         project {
             name = "${rootProject.name}-${project.name}"
         }
+    }
+
+    apply plugin: 'maven-publish'
+
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                groupId "${project.group}"
+                artifactId "${rootProject.name}-${project.name}"
+                from components.java
+            }
+        }
+        repositories {
+                maven {
+                    credentials {
+                        username "${nexusUsername}"
+                        password "${nexusPassword}"
+                    }
+                    url "${nexusRepoUrl}"
+                }
+        }
+    }
+
+    publish {
+        dependsOn assemble
     }
 }
 
