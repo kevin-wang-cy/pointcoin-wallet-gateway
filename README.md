@@ -39,8 +39,10 @@ git push
 ### 4. merge master into feature branch and solve conflict before create pull request
 ```
 git fetch origin
-git merge origin/master
-git commit -m '#ticket-number solve conflicts before merge'
+git merge origin/master`ddd
+
+
+dafdfadadfafsdaafsdafasdfdsasdfdssafdsfdasdaffsdads1111111c0                fddsgsdfgfdgsfdgommit -m '#ticket-number solve conflicts before merge'
 git push
 ```
 ### 5. create pull request as suggested [here](https://help.github.com/articles/creating-a-pull-request/)

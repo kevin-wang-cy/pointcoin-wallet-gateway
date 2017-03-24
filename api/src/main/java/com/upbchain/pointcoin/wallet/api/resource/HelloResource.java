@@ -18,6 +18,7 @@ import javax.ws.rs.core.UriInfo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -43,8 +44,9 @@ import com.upbchain.pointcoin.wallet.api.service.HelloService;
 @Path("/echo")
 public class HelloResource {
     private static final Logger LOG = LoggerFactory.getLogger(HelloResource.class);
-    
-    private final ObjectMapper objMapper = new ObjectMapper();
+
+    @Autowired
+    private ObjectMapper objMapper;
     
     private final HelloService service;
 
