@@ -26,10 +26,11 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
 
         auth.inMemoryAuthentication()
+                .withUser("partner").password("123456").roles("PARTNER").and()
             .withUser("user").password("123456").roles("USER").and()
             .withUser("admin").password("123456").roles("USER", "ADMIN");
         
-        LOG.info("created two users: user, admin for development envivornment.");
+        LOG.info("created three users: partner, user, admin for development envivornment.");
     }
 
     /**
@@ -46,6 +47,7 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.httpBasic().and().authorizeRequests()
                 .antMatchers("/api/echo/**").permitAll()
                 .antMatchers("/api/mortgagewallets/**", "/api/paymentwallets/**").hasIpAddress("127.0.0.1")
+                .antMatchers("/api/wallet/**").hasAnyRole("PARTNER", "USER")
                 .antMatchers("/api/mortgageaccounts/**").hasRole("USER")
                 .antMatchers("/api/paymentaccounts/**").hasRole("ADMIN")
                 .anyRequest().fullyAuthenticated()
@@ -54,6 +56,7 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
         // add this line to use H2 web console
         http.headers().frameOptions().disable();
 
+        LOG.info("/api/wallet/** needs either PARTNER or USER role user to access.");
         LOG.info("/api/mortgageaccounts/** needs USER role user to access.");
         LOG.info("/api/paymentaccounts/** needs ADMIN role user to access.");
     }

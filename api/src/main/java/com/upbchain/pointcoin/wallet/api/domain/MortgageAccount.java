@@ -13,7 +13,7 @@ public class MortgageAccount extends AbstractAuditableEntity {
 	@Id @Column(nullable = false, updatable = false)
 	private String memberId;
 	
-	@Column(nullable=false)
+	@Column(nullable=false, unique = true)
 	private String pointcoinAddress;
 	
 	@Column(nullable=false)

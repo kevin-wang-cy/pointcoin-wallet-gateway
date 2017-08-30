@@ -39,6 +39,7 @@ public class WalletGatewaySecurityConfiguration extends WebSecurityConfigurerAda
         http.authorizeRequests()
                 .antMatchers("/api/echo/**").permitAll()
                 .antMatchers("/api/mortgagewallets/**", "/api/paymentwallets/**").hasIpAddress("127.0.0.1")
+                .antMatchers("/api/wallet/**").hasAnyRole("PARTNER", "USER")
                 .antMatchers("/api/mortgageaccounts/**").hasRole("USER")
                 .antMatchers("/api/paymentaccounts/**").hasRole("ADMIN")
                 .anyRequest().fullyAuthenticated();

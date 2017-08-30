@@ -50,6 +50,7 @@
 #       -e POINTCOIN_TASK_DR_PUSH_USER=<member system service account> \
 #       -e POINTCOIN_TASK_DR_PUSH_PASSWORD=ENC(jasypt encrytped password) \
 #
+#       -e POINTCOIN_SECURITY_PARTNER_PASSWORD=ENC(jasypt encrytped password for partner) \
 #       -e POINTCOIN_SECURITY_USER_PASSWORD=ENC(jasypt encrytped password for user) \
 #       -e POINTCOIN_SECURITY_ADMIN_PASSWORD=ENC(jasypt encrytped password for admin) \
 #
@@ -74,6 +75,7 @@ ENV LOG_PATH=/var/log/walletrpc
 
 # Pointcoin Security Settings
 ENV POINTCOIN_SECURITY_ALLOWIP=127.0.0.1
+ENV POINTCOIN_SECURITY_PARTNER_PASSWORD=ENC(kYCyrt/wFOl6iypL4PS6Hg==)
 ENV POINTCOIN_SECURITY_USER_PASSWORD=ENC(kYCyrt/wFOl6iypL4PS6Hg==)
 ENV POINTCOIN_SECURITY_ADMIN_PASSWORD=ENC(9wsc+eE6tDhmvBpBvSwaSg==)
 

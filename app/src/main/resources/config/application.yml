@@ -36,6 +36,8 @@ pointcoin:
             password: 123456
             roles:
               - ADMIN
+              - USER
+              - PARTNER
 
 endpoints:
     health:
@@ -151,14 +153,21 @@ pointcoin:
         allowip: ${POINTCOIN_SECURITY_ALLOWIP:127.0.0.1}
         users:
             -
+                name: partner
+                password: ${POINTCOIN_SECURITY_PARTNER_PASSWORD:123456}
+                roles:
+                    - PARTNER
+            -
                 name: user
                 password: ${POINTCOIN_SECURITY_USER_PASSWORD:123456}
                 roles:
                     - USER
+                    - PARTNER
             -
                 name: admin
                 password: ${POINTCOIN_SECURITY_ADMIN_PASSWORD:123456}
                 roles:
+                    - PARTNER
                     - USER
                     - ADMIN
 spring:
