@@ -1,5 +1,6 @@
 package com.upbchain.pointcoin.wallet.api.resource;
 
+import com.googlecode.jsonrpc4j.JsonRpcClientException;
 import com.upbchain.pointcoin.wallet.api.domain.MortgageAccount;
 import com.upbchain.pointcoin.wallet.api.domain.MortgageDepositRecord;
 import com.upbchain.pointcoin.wallet.api.resource.util.ErrorMessage;
@@ -33,13 +34,24 @@ public class WalletResource {
     @Produces(MediaType.APPLICATION_JSON) 
     public Response retrieveTransactionById(@NotNull @PathParam("txId") String txId ){
 
+        PointcoinTransaction tx = null;
         try {
-            PointcoinTransaction tx = pointcoinWalletClient.retrievePoincoinTransactionByTxId(txId);
-
-            if (tx == null) {
+            tx = pointcoinWalletClient.retrievePoincoinTransactionByTxId(txId);
+        }
+        catch (PointcoinWalletRPCException ex) {
+            if (ex.getCause() instanceof JsonRpcClientException && ((JsonRpcClientException) ex.getCause()).getCode() == -5) {
                 return Response.status(Response.Status.NOT_FOUND).entity(ErrorMessage.newInstance().status(Response.Status.NOT_FOUND.getStatusCode()).message("Transaction doesn't exist.").entity(txId)).encoding("UTF-8").build();
             }
 
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity(ErrorMessage.newInstance().status(Response.Status.INTERNAL_SERVER_ERROR.getStatusCode()).message(ex.getCause().getMessage())).encoding("UTF-8").build();
+        }
+
+        if (tx == null) {
+            return Response.status(Response.Status.NOT_FOUND).entity(ErrorMessage.newInstance().status(Response.Status.NOT_FOUND.getStatusCode()).message("Transaction doesn't exist.").entity(txId)).encoding("UTF-8").build();
+        }
+
+
+        try {
             boolean isMine = !(tx.isCoinbased() || tx.isGenerated());
 
             if (isMine) {
