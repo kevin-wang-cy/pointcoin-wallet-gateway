@@ -1,5 +1,5 @@
-# pointcoin-wallet-api image, should refer to  pointcoin-wallet-api-<version>
-# For example FROM kevinwangcy/upchain:pointcoin-wallet-api-latest
+# bitcoin-wallet image, should refer to  bitcoin-wallet-<version>
+# For example FROM kevinwangcy/upchain:bitcoin-wallet-latest
 # By default the wallet itself is not secured, you can secured it through encryptwallet rpc command.
 # And the rpc listens on 22888 and only grants access to pointcoinrpc with a password of 123456.
 # Wallet data is kept under /wallet/$WALLET_ALIAS by default, it's recommanded to mount to /wallet from
@@ -18,22 +18,22 @@
 # docker run --name wallet-default -p 8080:8080 -p 22888:22888
 #       -e WALLET_ALIAS=default \
 #       -v ~/wallet:/wallet \
-#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#       kevinwangcy/upchain:bitcoin-wallet-latest
 #
 # docker volume create wallet-data-volume
 #
 # docker run --name wallet-default -p 8080:8080 \
 #       -e WALLET_ALIAS=default \
 #       -v wallet-data-volume:/wallet \
-#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#       kevinwangcy/upchain:bitcoin-wallet-latest
 #
 # docker run --name wallet-default --link pointcoindb-mysql:mysql -p 8080:8080
 #       -e POINTCOIN_SECURITY_ALLOWIP="10.0.0.0/8" \
 #       -e WALLET_ALIAS=default \
 #       -v wallet-data-volume:/wallet \
-#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#       kevinwangcy/upchain:bitcoin-wallet-latest
 #
-# docker run --rm kevinwangcy/upchain:pointcoin-wallet-api-latest \
+# docker run --rm kevinwangcy/upchain:bitcoin-wallet-latest \
 #       encrypt pasword="<jasypt password>" input="<your password>"
 #
 # docker run --name wallet-default -p 8080:8080 \
@@ -56,9 +56,9 @@
 #
 #       -e WALLET_ALIAS=default \
 #       -v wallet-data-volume:/wallet \
-#       kevinwangcy/upchain:pointcoin-wallet-api-latest
+#       kevinwangcy/upchain:bitcoin-wallet-latest
 #
-FROM kevinwangcy/upchain:pointcoin-wallet-pointcoind-latest
+FROM kevinwangcy/upchain:bitcoin-wallet-pointcoind-latest
 MAINTAINER Kevin C.Y. Wang <kevin.wang.cy@gmail.com>
 
 # Jasypt Password Settings
