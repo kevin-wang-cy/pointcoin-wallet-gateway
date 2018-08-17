@@ -75,16 +75,16 @@ public class PointcoinWalletAPIConfiguration extends ResourceConfig {
         PointcoinWalletClient client = null;
         
         if (StringUtils.isEmpty(settings.getRpcUser())) {
-           client = new PointcoinWalletClient(settings.getAlias(), settings.getRpcUrl());
+           client = new PointcoinWalletClient(settings.getKind(), settings.getAlias(), settings.getRpcUrl());
            if (LOG.isDebugEnabled()) {
-               LOG.debug(String.format("Wallet RPC URL: %s", settings.getRpcUrl()));
+               LOG.debug(String.format("%s Wallet RPC URL: %s", settings.getKind(), settings.getRpcUrl()));
            }
         }
         else {
-            client = new PointcoinWalletClient(settings.getAlias(), settings.getRpcUrl(), StringUtils.trimAllWhitespace(settings.getRpcUser()), StringUtils.trimAllWhitespace(settings.getRpcPassword()));
+            client = new PointcoinWalletClient(settings.getKind(), settings.getAlias(), settings.getRpcUrl(), StringUtils.trimAllWhitespace(settings.getRpcUser()), StringUtils.trimAllWhitespace(settings.getRpcPassword()));
             
             if (LOG.isDebugEnabled()) {
-                LOG.debug(String.format("Wallet RPC URL: %s, RPC User: %s", settings.getRpcUrl(), settings.getRpcUser()));
+                LOG.debug(String.format("%s Wallet RPC URL: %s, RPC User: %s", settings.getKind(), settings.getRpcUrl(), settings.getRpcUser()));
             }
         }
                 

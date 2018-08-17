@@ -14,7 +14,8 @@ import org.springframework.util.StringUtils;
 public final class PointcoinWalletClientSettings {
     @NotNull
     private URL rpcUrl;
-    
+
+    private String kind;
     private String alias;
     private String rpcUser;
     private String rpcPassword;
@@ -41,5 +42,11 @@ public final class PointcoinWalletClientSettings {
     }
     public void setAlias(String alias) {
         this.alias = alias;
+    }
+    public String getKind() {
+        return StringUtils.isEmpty(kind) ? "pointcoin" : kind;
+    }
+    public void setKind(String kind) {
+        this.kind = kind;
     }
 }

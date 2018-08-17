@@ -16,7 +16,7 @@ buildscript {
 
 allprojects {
     group = 'com.upbchain.pointcoin'
-    version = project.properties.containsKey("releaseVersion") ? "${releaseVersion}" : "1.0-SNAPSHOT"
+    version = project.properties.containsKey("releaseVersion") ? "${releaseVersion}" : "2.0-SNAPSHOT"
 
     apply plugin: 'idea'
 
@@ -44,7 +44,7 @@ subprojects {
         mysqlConnectorVersion = "5.1.40"
         druidVersion = "1.0.27"
 
-        pointcoinwalletcommonVersion = "1.0-SNAPSHOT"
+        pointcoinwalletcommonVersion = "2.0-SNAPSHOT"
     }
 
     apply plugin: 'java'
