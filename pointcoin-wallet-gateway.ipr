@@ -208,9 +208,9 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/546dfa7cadacf40752c42bfd12af3b7a935920af/json-path-2.2.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: com.upbchain.pointcoin:pointcoin-wallet-common-client:1.0-SNAPSHOT">
+    <library name="Gradle: com.upbchain.pointcoin:pointcoin-wallet-common-client:2.0-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.upbchain.pointcoin/pointcoin-wallet-common-client/1.0-SNAPSHOT/7a400f565169f1734efb264e653c10b6fee2fda3/pointcoin-wallet-common-client-1.0-SNAPSHOT.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.upbchain.pointcoin/pointcoin-wallet-common-client/2.0-SNAPSHOT/a7b587c28f1051170e2f1a8a1fc084fbe6da8640/pointcoin-wallet-common-client-2.0-SNAPSHOT.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
